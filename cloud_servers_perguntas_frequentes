@@ -1,0 +1,421 @@
+permalink: cloud_servers_perguntas_frequentes
+audit_date:-pt
+title: Cloud Servers Perguntas Frequentes
+type: article
+created_date: '2011-03-16'
+created_by: Rackspace Support
+last_modified_date: '2016-05-20'
+last_modified_by: 
+product: Digital
+product_url: ecommerce-hosting
+
+- Introdução -
+
+Quantos domínios posso hospedar?
+Essa é uma pergunta familiar para aqueles que usam hospedagem compartilhada. Não há limite, pois você controla tudo no seu Cloud Server.
+
+Não tenho muita experiência com isso. O procedimento é difícil?
+Talvez. Isso depende principalmente da sua experiência como administrador de sistemas Linux e/ou Windows Server. Nossos Cloud Servers Linux são distribuições Linux completas com acesso root. Os Cloud Servers Windows fornecem a você acesso como administrador e são compilados apenas com as aplicações-padrão. Os Cloud Servers são voltados para clientes que querem começar do zero e desejam ajustar o sistema para suas próprias finalidades.
+
+Se, depois de usar o uniforme de administrador de sistemas por um tempo, você perceber que não joga bem nessa posição – não se desespere! Também fornecemos Cloud Servers com Operações Gerenciadas. Leia aqui para obter mais informações sobre Cloud Servers com Operações Gerenciadas.
+
+Que nível de suporte é fornecido com os Cloud Servers?
+Oferecemos dois níveis de serviço: Infraestrutura Gerenciada e Operações Gerenciadas. No nível da Infraestrutura gerenciada, oferecemos suporte ao hardware do Cloud Server, ao ambiente de centro de dados e à conectividade com a Internet – com a exceção dos softwares instalados no seu servidor, incluindo o sistema operacional e sua configuração. Quando provisionar um Cloud Server, você receberá um servidor com acesso irrestrito. A equipe de suporte de Infraestrutura Gerenciada não poderá prestar auxílio durante a instalação do software ou solucionar problemas relacionados ao software instalado. No centro de conhecimento, há alguns artigos que abordam a instalação básica de aplicações comuns. Também temos fóruns comunitários, onde você pode compartilhar dicas e sugestões com outros clientes.
+
+Se você quiser ter Operações gerenciadas em seus Cloud Servers, oferecemos este serviço. Este nível operacional fornece suporte adicional aos Cloud Servers, incluindo monitoramento, orientação técnica e suporte à camada de infraestrutura de aplicações e ao sistema operacional.
+
+O que eu posso fazer com um Cloud Server?
+O que você quiser (desde que dentro da lei e em conformidade com a nossa Política de Uso Aceitável, claro)! A solução Cloud Server da Rackspace é um ambiente Linux ou Windows sem restrições, com nível de acesso root/administrador. Qualquer aplicação ou serviço executado a partir de operações dedicadas físicas, tradicionais e não gerenciadas funcionará no seu Cloud Server.
+
+Posso reinstalar uma distribuição diferente ou começar de novo?
+Claro que pode! Basta clicar no botão Recompilar no painel de controle e você conseguirá selecionar uma nova distribuição. Faça um backup dos seus dados, pois este processo destruirá todos os dados contidos no servidor. O processo de recompilação permite que você salve o seu endereço IP.
+
+E se eu fizer algo de errado no meu Cloud Server?
+Você pode reiniciar seu servidor. Você pode restaurá-lo a partir de um backup. Você pode excluir seu servidor e recomeçar. Você pode inicializar em modo de recuperação de emergência e tentar corrigir o problema. Há várias opções de recuperação em caso de erro, mas a mais fácil é fazer backups regulares, bem como fazer um novo backup antes de tentar efetuar qualquer mudança de configuração ou instalar um novo software.
+
+Quero instalar uma nova versão de um software no Linux, mas seu sistema não me permite. Como faço para instalá-la?
+Possivelmente, o repositório do gerenciador de pacotes do seu sistema operacional possui uma versão aprovada mais antiga. Isso é bastante comum, e você mesmo precisará remover essa instalação e depois compilar a versão mais nova. Consulte o fornecedor do software para obter instruções.
+
+Vocês podem me ajudar a instalar meu pacote de softwares?
+Depende do seu nível de serviço. Para as contas de nuvem de infraestrutura gerenciada, você é responsável pela instalação e manutenção de todos os softwares no seu servidor. No entanto, você também pode consultar nossos artigos de ajuda para obter tutoriais e instruções passo a passo. A Rackspace fornece suporte para configurações específicas de software e servidores em Cloud Servers com Operações Gerenciadas. Para obter mais informações sobre sistemas suportados e pacotes de terceiros, consulte Cloud Servers com Operações Gerenciadas - Âmbitos de suporte.
+
+Vocês fornecem suporte a Ruby/Python/(insira a linguagem ou aplicação aqui)?
+Todos os nossos Cloud Servers podem ser configurados como pilhas de desenvolvimento, servidores de banco de dados e servidores web. Apache, Lighttpd, Mongrel e Visual Studio podem ser instalados.
+
+Você pode usar a linguagem de programação de sua escolha para interagir com os Cloud Servers. Para obter ajuda sobre como começar a usá-la, use qualquer kit de desenvolvimento de software (SDK) documentado em https://developer.rackspace.com/sdks/.
+
+Quais são os servidores DNS para o meu Cloud Server?
+dns1.stabletransit.com e dns2.stabletransit.com
+
+Voltar ao topo
+Serviços da conta
+
+FAQ sobre grupos de segurança
+Este artigo esclarece as dúvidas mais comuns sobre os grupos de segurança de Cloud Networks.
+
+O que são grupos de segurança?
+Onde estão os documentos?
+Quais são os benefícios?
+O que está sendo lançado?
+Quais características serão suportadas no momento do lançamento?
+Os grupos de segurança têm suporte nas Cloud Networks?
+Os grupos de segurança terão suporte pelo cliente Neutron?
+Eles serão integrados e estarão disponíveis para uso por meio do painel de controle/acessar?
+Os usuários de OnMetal contam com suporte para grupos de segurança?
+Há algum grupo de segurança padrão que é aplicado às minhas instâncias?
+Posso aplicar grupos de segurança às portas em uma instância no momento da inicialização?
+O que acontece quando uma regra do grupo de segurança é adicionada ao grupo de segurança?
+O tráfego pode ser bloqueado ou negado com base em uma regra do grupo de segurança?
+Há algum tráfego que é permitido por padrão pelos grupos de segurança?
+Quais são os tipos de tráfego que podem combinar com as regras do grupo de segurança?
+Posso ter um grupo de segurança sem regras?
+Os grupos de segurança são aplicados a instâncias?
+Quais são os limites para as regras e os grupos de segurança?
+O que são grupos de segurança?
+
+Grupos de segurança são coleções nomeadas de regras de acesso de rede que oferecem aos usuários da Nuvem Pública da Rackspace a capacidade de especificar os tipos de tráfego que serão permitidos nas portas PublicNet e ServiceNet de uma instância de Cloud Servers. Um grupo de segurança é um contêiner para as regras do grupo de segurança. Após lançar uma instância, você pode atribuir um ou mais grupos de segurança às suas portas. Os grupos de segurança atuam como um firewall dinâmico para as instâncias do seu Cloud Server.
+
+Onde estão os documentos?
+
+Guia do desenvolvedor: http://docs.rackspace.com/networks/api/v2/cn-devguide/content/conceptSecurityGroups.html
+
+Guia de introdução: http://docs.rackspace.com/networks/api/v2/cn-gettingstarted/content/security_groups.html
+
+Quais os benefícios de usar os grupos de segurança?
+
+Antes do lançamento desse recurso, os usuários tinham que gerenciar o tráfego que entrava e saía das suas instâncias individualmente via (por exemplo) regras de iptables em todas as instâncias ou, talvez, usar ferramentas de terceiros, como CloudPassage. O gerenciamento de políticas de firewall envolve despesas significativas. Os grupos de segurança possibilitam o uso de uma API de autoatendimento para definir um conjunto comum de regras e aplicá-las aos servidores sem precisar gerenciar as regras de iptables em cada servidor. Os grupos de segurança simplificam a administração de diretrizes de segurança para clientes em suas implementações.
+
+O que está sendo lançado?
+
+Estamos lançando grupos de segurança com disponibilidade limitada em todos os centros de dados. Dessa forma, nossos clientes podem solicitar o recurso de grupos de segurança e receber pontos de extremidade provisionados em seu catálogo de serviço. Os grupos de segurança contarão com suporte para clientes de infraestrutura gerenciada (não RackConnect) no momento do lançamento.
+
+Quais características serão suportadas no momento do lançamento?
+
+Com o lançamento com disponibilidade limitada no início de 2015, oferecemos suporte apenas para grupos de segurança de entrada em interfaces PublicNet e ServiceNet. Isso significa que os clientes podem filtrar o tráfego de entrada das suas portas PublicNet e ServiceNet. Incluiremos suporte a grupos de segurança de saída ainda em 2015.
+
+Os grupos de segurança têm suporte nas Cloud Networks?
+
+No momento não. Incluiremos o suporte ainda em 2015.
+
+Os grupos de segurança terão suporte pelo cliente Neutron?
+
+Sim. Os usuários podem fornecer grupos de segurança por meio de um cliente Neutron.
+
+Essa funcionalidade está disponível e integrada com o Painel de Controle Cloud?
+
+Ainda não. O produto será disponibilizado em breve. Enquanto isso, você pode usar o cliente Neutron ou a API.
+
+Os usuários de OnMetal contam com suporte para grupos de segurança?
+
+Não. Atualmente oferecemos suporte para grupos de segurança apenas em Cloud Servers virtuais.
+
+Um grupo de segurança padrão é aplicado às minhas instâncias?
+
+Nenhum grupo de segurança padrão é aplicado. Os usuários precisam criar seu próprio grupo de segurança e aplicá-lo às portas de uma instância.
+
+Posso aplicar grupos de segurança às portas em uma instância no momento da inicialização?
+
+Não, os grupos de segurança só podem ser aplicados depois que a instância estiver ativa.
+
+O que acontece quando uma regra do grupo de segurança é adicionada ao grupo de segurança?
+
+O tráfego que estiver de acordo com a nova regra de um grupo de segurança terá permissão para prosseguir.
+
+O tráfego pode ser bloqueado ou negado com base em uma regra do grupo de segurança?
+
+Não, o tráfego que estiver de acordo com uma regra será permitido e qualquer tráfego que não fizer parte do conjunto de regras daquele grupo de segurança será negado ou bloqueado. Devido aos requisitos de design da API do OpenStack, não é possível especificar que o tráfego que estiver de acordo com uma regra deverá ser negado. A API dos grupos de segurança é uma lista branca. Portanto, o tráfego que não estiver de acordo com qualquer uma das regras da lista branca será automaticamente incluído na lista negra.
+
+Há algum tráfego que é permitido por padrão pelos grupos de segurança?
+
+As respostas de DNS dos servidores de DNS do provedor da Rackspace (porta de origem UDP 53) são permitidas por padrão, mesmo se não tiverem uma permissão explícita de um grupo de segurança. TCP com flags ACK e RST também são permitidos por padrão.
+
+Quais são os tipos de tráfego que podem combinar com as regras do grupo de segurança?
+
+O tipos de tráfego a seguir podem combinar (para endereços IPv4 e IPv6):
+
+Tráfego TCP
+Tráfego UDP
+Tráfego ICMP
+Tráfego de um endereço IP de origem
+Tráfego de um CIDR
+Posso ter um grupo de segurança sem regras?
+
+Sim. Esse grupo de segurança negará ou bloqueará todo o tráfego.
+
+Os grupos de segurança são aplicados a instâncias?
+
+Não, os grupos de segurança são aplicados a uma porta Neutron em uma rede anexada a uma instância, não à própria instância.
+
+Quais são os limites para as regras e os grupos de segurança?
+
+Você pode aplicar até 5 grupos de segurança por porta.
+
+Você pode ter até 20 regras por grupo de segurança.
+
+Você pode ter até 100 regras de grupo de segurança (agregadas) por usuário durante o lançamento com disponibilidade limitada.
+
+Os Cloud Servers da Rackspace estão em conformidade com o HIPAA?
+A Rackspace não é capaz de determinar se um cliente cumpre suas obrigações de acordo com as leis aplicáveis a ele. É obrigação do cliente compreender as leis aplicáveis ao uso dos serviços e selecionar os serviços apropriados para cumprir essas obrigações. Nós compreendemos as necessidades que muitos de nossos clientes da área de saúde têm de implementar medidas de segurança adequadas para proteger as informações confidenciais com as quais trabalham.
+
+Para ajudar os clientes do setor de saúde a atenderem aos requisitos de conformidade referentes ao HIPAA, a Rackspace oferece um Contrato de Associado Comercial em todos os seus segmentos de serviços de hospedagem dedicada. Ele está incluído por padrão em nossos contratos com clientes para tais serviços.
+
+Como os Cloud Servers impedem que meus dados se tornem visíveis ao excluir um servidor?
+Para sua segurança, o disco rígido virtual (VHD) do hipervisor é excluído junto com o servidor. Após a exclusão, os dados não poderão ser recuperados e os clientes não terão acesso lógico ou direto ao disco físico.
+
+ 
+
+O que são imagens PVHVM?
+PVHVM refere-se ao modo de virtualização usado pelo hipervisor para executar a máquina virtual. Imagens PVHVM são imagens de máquinas virtuais que usam o modo de virtualização PVHVM. Em geral, o PVHVM oferece melhor desempenho que o modo PV, especialmente para disco e rede E/S, mas não é bem suportado em sistemas operacionais Linux com uma versão kernel anterior à 2.6.36. A disponibilidade das imagens PV e PVHVM na Rackspace Cloud é determinada pela eficácia de cada modo de virtualização para aquele determinado sistema operacional.
+
+Observação:
+
+Servidores otimizados para o trabalho (computação, E/S e memória) exigem imagens PVHVM. Se você tentar criar um servidor otimizado para o trabalho usando uma imagem que não seja PVHVM, a seguinte mensagem de erro será exibida: Image cannot be built with provided flavor.
+
+Para mais informações sobre PVHVM, veja Como escolher um modo de virtualização (PV x PVHVM).
+
+O que devo digitar no campo "nome do servidor"?
+As informações digitadas no campo nome do servidor o ajudam a identificar o servidor na API e no painel de controle Cloud.
+
+Dando um nome inicial ao servidor
+
+O nome digitado no campo Nome do servidor durante sua criação será usado como o nome do host do servidor. Você pode ler mais sobre o nome de hosts de servidores na Wikipédia.
+
+Renomeação do servidor
+
+Quando você renomeia um servidor, o nome exibido na API e no painel de controle Cloud é atualizado. No entanto, o nome do host no computador não será atualizado.
+
+Conectar ao servidor usando seu nome
+
+Para conectar-se ao servidor de fora de sua rede local, é necessário configurar um registro A no Cloud DNS. Para acessar o Cloud DNS, selecione Rede > Cloud DNS na barra de navegação no topo do painel de controle Cloud.
+
+Por exemplo, se você nomear seu servidor como MyWebServer1.MyExampleDomain.com, será necessário adicionar um registro A para MyWebServer1.MyExampleDomain.com para a zona de DNS (MyExampleDomain.com) que direciona ao endereço de IP público do servidor.
+
+
+
+ 
+
+Posso ler o seu SLA?
+Claro, ele está aqui.
+
+Como eu falo com o suporte?
+O objetivo da Rackspace é facilitar o uso da nuvem para você. Para atingir essa meta, criamos vários caminhos diferentes para que você consiga o suporte necessário para aproveitar a nuvem ao máximo.
+
+O primeiro local a ser consultado deve ser o nosso centro de conhecimento, a melhor fonte de artigos, tutoriais e vídeos para ajudá-lo a obter as respostas de que precisa.
+ 
+O centro de conhecimento contém o Guia de introdução ao Cloud Servers, que fornece as informações mais importantes das quais você precisa para configurar um servidor.
+ 
+O fórum sobre Open Cloud da comunidade Rackspace está sempre aberto. Use o fórum para tirar suas dúvidas com um Racker.
+ 
+Tem uma pergunta urgente e não consegue encontrar a resposta no centro de conhecimento? Inicie um chat e fale com a equipe do Suporte Fanático a qualquer hora, 24x7x365.
+ 
+Tem uma solicitação de serviço específica ou está tendo problemas com nosso serviço? Abra um ticket. No painel de controle Cloud da Rackspace, selecione tickets de suporte no menu conta. Clique em criar ticket para abrir um ticket diretamente com nossas equipes de suporte e reportar um problema ou fazer uma solicitação de serviço.
+ 
+Fale conosco 24x7x365 pelo telefone 877 934 0407 (ligação gratuita) ou +1 210 581 0407 (internacional).
+ 
+
+Voltar ao topo
+Gerenciamento de servidores
+
+Vocês fornecem acesso via console?
+Sim, via terminal da web Java, que pode ser acessado na seção Detalhes de cada servidor web, no menu Ações, na seção denominada Gerenciar, onde você encontrará o link Conectar via terminal.
+
+ 
+
+Observação: o acesso por console é feito via conexão HTTP segura, que é diferente da forma tradicional de conexão via SSH, no Linux, ou RDP, no Windows. O console pode ser uma ferramenta útil para a solução de problemas, caso seu servidor não esteja respondendo ou você tenha bloqueado a si mesmo.
+
+Posso reiniciar minha máquina?
+Sim. Todos os Cloud Servers podem executar reinicializações suaves (botão reiniciar) ou forçadas (ciclo de energia). Elas são executadas instantaneamente e comandadas por meio do painel de controle do Cloud Server.
+
+Serei cobrado se meu servidor estiver desligado?
+Sim. Você será cobrado pelos recursos usados no host enquanto seu servidor estiver com status Ativo. Quando seu servidor é criado, você recebe uma quantidade dedicada de RAM e de espaço em disco rígido. Enquanto seu servidor existir, ninguém mais poderá usar os recursos que foram alocados a você – por isso você é cobrado por hora, mesmo quando desligado. Se você quiser eliminar os custos de um determinado servidor, exclua este servidor no painel de controle.
+
+Se você quiser parar de pagar por um servidor, mas precisar manter as configurações dele, sua melhor opção é criar uma imagem do Cloud Server. As configurações no seu disco de sistema serão preservadas na imagem. A imagem será salva no Cloud Files e poderá ser acessada pela aba Imagens Salvas, no painel de controle. Há uma taxa para o armazenamento no Cloud Files, mas ela é bem menor que o custo de um servidor ativo. Você também precisará salvar os dados do seu disco de dados no Cloud Block Storage ou no Rackspace Cloud Backup para tê-los disponíveis em seu próximo servidor. Em seguida, você estará livre para excluir o servidor original, com a certeza de que poderá provisionar um novo servidor usando a imagem e os dados salvos do seu servidor antigo. Depois de restaurar seu servidor a partir de uma imagem salva, a principal diferença será que o novo servidor terá um endereço IP diferente do antigo. Colocar um novo servido em produção pode exigir que você atualize os registros DNS associados para corresponderem ao novo endereço de IP.
+
+Como faço para ligar meu servidor novamente após desligá-lo?
+Consulte este artigo: Como desligar e reiniciar um Cloud Server.
+
+Quais distribuições vocês oferecem?
+A seção Características na página do produto tem informações sobre as distribuições do Linux e os sistemas operacionais Windows disponíveis.
+
+Posso atualizar futuramente?
+Sim, com os Cloud Servers de uso geral, você pode alterar o espaço de armazenamento de dados de uma destas duas formas:
+
+Aumentar o armazenamento disponível com o Cloud Block Storage. Para obter mais informações sobre o Cloud Block Storage, consulte Crie e anexe um volume de Cloud Block Storage.
+Migrar para um servidor de tamanho maior, com mais RAM, espaço de disco e vCPUs. Para mais informações sobre redimensionamento, consulte Como alterar o tamanho do seu Cloud Server de primeira geração.
+ 
+
+ 
+
+Quantos clientes podem ser alocados em cada máquina?
+O número de clientes em um host de Cloud Server depende do tamanho dos Cloud Servers dos clientes e do tipo de sistema operacional.
+
+Como funciona a programação da CPU na nova geração de servidores padrão?
+Observação: Cloud Servers de uso geral possuem alocações específicas de CPU virtual, conforme detalhado na página de preços dos Cloud Servers. As informações sobre programação de CPU a seguir aplicam-se apenas à nova geração de Cloud Servers padrão (isto é, não aos de uso geral).
+
+Para imagens do Windows, a cada Cloud Server é atribuído uma quantidade de núcleos virtuais de acordo com o tamanho do Cloud Server. O Cloud Server padrão de 1 GB recebe 1 núcleo virtual, os Cloud Servers padrão de 2 GB e 4 GB recebem 2 núcleos virtuais, os Cloud Servers padrão de 8 GB e 15,5 GB recebem 4 núcleos virtuais e os servidores padrão de 30 GB recebem 8 núcleos virtuais. A cada um desses núcleos é dado peso igual na alocação de ciclos de CPU.
+
+Para distribuições de Linux, a cada Cloud Server padrão são atribuídos quatro núcleos virtuais, e os ciclos de CPU alocados a esses núcleos são calculados com base no tamanho do Cloud Server.
+
+Todos os Cloud Servers standard recebem uma quantidade mínima garantida de ciclos de CPU, com capacidade de aumento quando houver ciclos excedentes disponíveis.
+
+Quanto tempo demora para redimensionar um Cloud Server padrão?
+O tempo exigido para um redimensionamento varia em função do tamanho do servidor e da hora do dia em que ele é executado. Se você tiver um servidor novinho em folha, sem softwares ou dados adicionais instalados, isso pode levar cerca de 10 minutos. Contudo, se houver dados ou softwares instalados no servidor, o processo pode levar 30 minutos ou mais. Os horários de pico para a atividade de redimensionamento tendem a ser no início e no fim dos dias úteis. É comum haver um breve período de inatividade durante o redimensionamento do servidor.
+
+Observe também que diminuir o tamanho de um servidor pode demorar mais do que aumentá-lo, pois o sistema precisa consolidar os dados e copiá-los para um contêiner de disco menor em vez de expandir o contêiner existente. Limpar os arquivos desnecessários (como arquivos de sessão e registros antigos) pode aumentar a velocidade de uma operação de redimensionamento.
+
+Há processos de redimensionamento diferentes:
+
+Redimensionamentos online: permitem que o Cloud Server original fique ligado durante a etapa de "preparação do redimensionamento", sendo desligado apenas durante a segunda etapa do processo.
+Isso abrange redimensionamento crescente e decrescente da primeira geração de servidores e redimensionamento crescente padrão.
+Redimensionamentos offline: desligar é a primeira etapa da "preparação do redimensionamento".
+Isso abrange redimensionamento decrescente padrão.
+OBSERVAÇÃO: o redimensionamento não está disponível para Cloud Servers otimizados para cargas de trabalho. Para obter informações sobre as opções disponíveis, consulte Como alterar o tamanho do seu Cloud Server otimizado para cargas de trabalho.
+
+Posso comprar armazenamento extra?
+Embora a alocação de armazenamento nativa de um Cloud Server seja baseada no tipo do Cloud Server selecionado, você também pode adicionar armazenamento extra a qualquer momento com o serviço Cloud Block Storage.
+
+Vocês hospedam DNS?
+Sim. Nosso painel de controle tem um menu de DNS para manter os registros de domínio dos seus Cloud Servers. Leia este artigo para obter informações detalhadas sobre o uso do Cloud DNS no painel de controle da Rackspace.
+
+Como eu configuro um DNS reverso para o meu Cloud Server?
+Você pode configurar um DNS reverso a partir do seu painel de controle. Este artigo mostra: DNS – Como criar um registro de DNS reverso.
+
+Há limite de taxa de transferência na placa de interface de rede do meu servidor?
+A taxa de transferência da rede varia conforme o tipo do Cloud Server. Para obter detalhes, clique aqui.
+
+Vocês oferecem IPs internos?
+Sim. Cada servidor vem com um endereço IP interno que é usado na comunicação entre servidores. O tráfego que flui por essa interface (eth1) no seu servidor não é medida nem cobrada. Essa rede também é chamada de ServiceNet. ServiceNet é uma conexão de rede interna exclusiva de vários inquilinos no âmbito de cada centro de dados da Rackspace. Os IPs da ServiceNet não são acessíveis a partir da internet e são locais por centro de dados.
+
+Posso comprar IPs públicos adicionais?
+Sim. Para obter mais informações sobre o processo de solicitação de IP, consulte Solicitação de endereços IPv4 adicionais para a primeira e próxima geração de cloud servers.
+
+Eu gostaria de configurar vários servidores a partir da mesma imagem. Posso fazer isso?
+Como cliente do Cloud Servers, você tem acesso para criar tanto imagens sob demanda como imagens programadas do seu cloud server. Todas as imagens de Cloud Server serão armazenadas em sua conta Cloud Files. Isso permite que você mantenha estas imagens mesmo após a exclusão do Cloud Server que deu origem a elas. Isso também proporciona flexibilidade para criar um número ilimitado de imagens sob demanda do seu Cloud Server. Todas as imagens de Cloud Server podem ser usadas para criar novos Cloud Servers ou restaurar um já existente. Para obter detalhes, veja como criar uma imagem do seu Performance Cloud Server com o painel de controle.
+
+Para obter mais informações sobre a criação de um servidor a partir de uma imagem, consulte Como criar um servidor a partir de uma imagem.
+
+Vocês oferecem imagens sob demanda (instantâneos) e imagens programadas? Quais são os preços?
+Você pode criar uma imagem de qualquer Cloud Server de uso geral e usá-la para restaurar um servidor ou clonar um novo servidor. Você pode criar um número ilimitado de imagens sob demanda, ou programar uma imagem automática diária ou semanal.
+
+As imagens serão compactadas e armazenadas no Rackspace Cloud Files, de acordo com as taxas de armazenamento vigentes. Leia também esta lista de limitações dos instantâneos.
+
+Se estiver usando um Cloud Server virtual, consulte Como criar uma imagem do seu Cloud Server de uso geral usando o painel de controle para obter mais informações sobre as opções de imagem associadas aos Cloud Servers virtuais.
+
+Gostaria de usar a interface gráfica de usuário (GUI) no meu Cloud Server Linux. Isso é possível?
+Sim, é! Há um artigo sobre como instalar o VNC e o X-Windows aqui: Instalação do VNC. Lembre-se de que isso demandará grande largura de banda do seu servidor.
+
+Vocês têm painel de controle?
+Sim, o Painel de Controle Cloud da Rackspace é uma interface de gerenciamento baseada na web onde é possível reiniciar seu Cloud Server, iniciar conversas com o suporte, exibir estatísticas e programar instantâneos. No entanto, nós não oferecemos painéis de controle como Plesk ou cPanel. Você tem a liberdade de instalar tais pacotes em seu próprio Cloud Server.
+
+Você pode estar interessado em instalar o agente de monitoramento gratuito no seu servidor e usar o painel Cloud Intelligence, que oferece muitas das funções de um painel de controle.
+
+Voltar ao topo
+Desempenho
+
+Qual é a diferença entre os Cloud Servers padrão e de uso geral?
+Existem diversas diferenças notáveis entre os Cloud Servers padrão e de uso geral:
+
+Os Cloud Servers de uso geral utilizam unidades de estado sólido (SSD) mais rápidas, em comparação à alocação padrão de discos giratórios dos Cloud Servers padrão.
+Até 120 GB de RAM estão disponíveis nos servidores de uso geral, enquanto os servidores padrão fornecem até 30 GB de RAM.
+Você pode ter até 32 vCPUs em execução nos Cloud Servers de uso geral, em comparação ao máximo de 8 nos Cloud Servers padrão.
+A largura de banda de rede máxima nos Cloud Servers padrão é de 300 Mbps para redes públicas e de 600 Mbps para redes privadas. A largura de banda de rede máxima nos Cloud Servers de uso geral é de 10.000 Mbps a serem divididos entre redes públicas e privadas de acordo com a sua preferência.
+Para mais informações sobre os Cloud Servers de uso geral, consulte O que há de novo nos Cloud Servers de uso geral.
+
+Voltar ao topo
+Faturamento e conta
+
+Vocês oferecem descontos nos Cloud Servers?
+Sim. Oferecemos diferentes tipos de desconto, baseados no uso. Consulte a página de descontos para Cloud Servers para obter detalhes.
+
+Voltar ao topo
+Suporte
+
+O tráfego pode ser bloqueado ou negado com base em uma regra do grupo de segurança?
+O tráfego que estiver de acordo com uma regra será permitido. Qualquer tráfego que não fizer parte do conjunto de regras daquele grupo de segurança será negado/bloqueado. Não há formas de especificar que o tráfego que estiver de acordo com uma regra deverá ser negado. Foi por isso que a API dos grupos de segurança do OpenStack foi criada. Portanto, a API dos grupos de segurança é uma lista branca. O tráfego que não estiver de acordo com qualquer uma das regras da lista branca será automaticamente incluído na lista negra.
+Voltar ao topo
+Segurança
+
+Os Cloud Servers estão em conformidade com o PCI-DSS?
+O ambiente de nuvem da Rackspace não foi formalmente avaliado em relação à conformidade com o padrão de segurança de dados (DSS) do setor de cartões de pagamento (PCI). Para obter informações sobre PCI-DSS, consulte Soluções de segurança em nuvem. Para obter mais informações sobre o PCI-DSS ao utilizar os serviços de hospedagem dedicada da Rackspace, consulte Hospedagem em conformidade com PCI para sites de comércio eletrônico.
+
+Posso executar um firewall no meu servidor?
+Com certeza, e nós incentivamos isso! Todos os servidores Linux podem executar o firewall-padrão do Linux, chamado iptables – alguns até vêm com ele pré-configurado! Outros sistemas de firewall também foram testados no Cloud Servers. Para ver as etapas introdutórias de algumas opções comuns, confira estes artigos:
+
+Para Linux – introdução ao iptables
+Para Windows – firewall do Windows 2003, 2008 ou 2012
+Há um limite máximo de regras por usuário?
+Há um limite agregado de 100 regras do grupo de segurança por usuário durante a disponibilidade limitada. Se você precisar aumentar esse limite, entre em contato com o suporte da Rackspace.
+
+Há um limite máximo de regras por grupo de segurança?
+Há um limite de 20 regras por grupo de segurança. Se você precisar aumentar esse limite, entre em contato com o suporte da Rackspace.
+
+Quantos grupos de segurança posso aplicar por porta?
+Até 5 grupos de segurança são permitidos por porta. Se você precisar aumentar esse limite, entre em contato com o suporte da Rackspace.
+
+Os grupos de segurança são aplicados a instâncias?
+Os grupos de segurança são aplicados a portas Neutron (PublicNet e ServiceNet) em instâncias de Cloud Server.
+
+Posso ter um grupo de segurança sem regras?
+Sim. Esse grupo de segurança negará/bloqueará todo o tráfego.
+
+Quais são os tipos de tráfego que podem combinar com as regras do grupo de segurança?
+Os tráfegos TCP, UDP e ICMP podem combinar, além do tráfego de um endereço IP de origem ou CIDR. Tanto o tráfego IPv4 quanto o IPv6 podem combinar.
+
+Há algum tráfego que é permitido por padrão pelos grupos de segurança?
+As respostas de DNS dos servidores de DNS do provedor da Rackspace (porta de origem UDP 53) são permitidas por padrão, mesmo se não tiverem uma permissão explícita de um grupo de segurança.
+
+TCP com flags ACK e RST também são permitidos por padrão.
+
+O que acontece quando uma regra do grupo de segurança é adicionada ao grupo de segurança?
+O tráfego que estiver de acordo com a regra de um grupo de segurança terá permissão para prosseguir.
+
+Posso aplicar grupos de segurança às portas em uma instância no momento da inicialização?
+Não. Os grupos de segurança só podem ser aplicados depois que a instância estiver ativa.
+
+Há algum grupo de segurança padrão que é aplicado às minhas instâncias?
+Não, não há grupos de segurança padrão que são aplicados. Os usuários precisam criar seu próprio grupo de segurança e aplicá-lo às portas de uma instância.
+
+Os usuários de OnMetal contam com suporte para grupos de segurança?
+Não. Atualmente, apenas os Cloud Servers virtuais contam com suporte para grupos de segurança.
+
+Eles serão integrados e estarão disponíveis para uso por meio do painel de controle/acessar?
+O produto estará disponível pelo painel de controle muito em breve. Enquanto isso, os clientes podem usar o cliente Neutron ou a API.
+
+Os grupos de segurança terão suporte pelo cliente Neutron?
+Sim. Os usuários podem fornecer grupos de segurança por meio de um cliente Neutron.
+
+Os grupos de segurança têm suporte nas Cloud Networks?
+Não. A Rackspace incluirá suporte a grupos de segurança para Cloud Networks em um futuro próximo.
+
+Os grupos de segurança de saída são suportados?
+Não. A Rackspace incluirá suporte a grupos de segurança de saída em um futuro próximo.
+
+Quais características serão suportadas no momento do lançamento para os grupos de segurança?
+Grupos de segurança de entrada em interfaces PublicNet e ServiceNet são suportadas. Isso significa que os clientes podem filtrar o tráfego de entrada das suas portas PublicNet e ServiceNet.
+
+Todos os clientes de nuvem contam com o suporte a grupos de segurança?
+No momento do lançamento, apenas clientes de infraestrutura gerenciada que não usam o RackConnect, contarão com suporte aos grupos de segurança.
+
+Os grupos de segurança estão disponíveis para todos os usuários da Nuvem Pública da Rackspace?
+Os grupos de segurança estão com disponibilidade limitada em todos os centros de dados. Entre em contato com o suporte da Rackspace para habilitar esse recurso.
+
+Quais os benefícios de usar os grupos de segurança?
+Antes de disponibilizarmos esse recurso, os clientes tinham que gerenciar o tráfego que entrava e saía das suas instâncias individualmente via (por exemplo) regras de ipTables em todas as instâncias (ou, talvez, usar ferramentas de terceiros [3rd party]). O gerenciamento de políticas de firewall envolve despesas significativas de forma distribuída para acompanhar e gerenciar. Os grupos de segurança tornam possível usar uma API de autoatendimento para definir um conjunto comum de regras e aplicá-las às portas Neutron (Public/ServiceNet) nos Cloud Servers sem precisar ajustar as regras de iptables em cada servidor, simplificando a administração das políticas de segurança.
+
+Onde estão os documentos sobre os grupos de segurança?
+Conceitos e introdução aos grupos de segurança: http://docs.rackspace.com/networks/api/v2/cn-devguide/content/api_ext_security_neutron.html
+
+Guia da API: http://docs.rackspace.com/networks/api/v2/cn-devguide/content/api_ext_security_neutron.html
+
+Introdução: http://docs.rackspace.com/networks/api/v2/cn-gettingstarted/content/security_groups.html
+
+O que são grupos de segurança?
+Grupos de segurança são uma coleção nomeada de regras de acesso de rede que oferecem aos usuários da Nuvem Pública da Rackspace a capacidade de especificar os tipos de tráfego que serão permitidos nas portas (Public/ServiceNet) de uma instância de Cloud Server. Um grupo de segurança é um contêiner para as regras do grupo de segurança. Após lançar uma instância, você pode atribuir um ou mais grupos de segurança às suas portas. Os grupos de segurança atuam como um firewall dinâmico para as instâncias do seu Cloud Server.
+
+Voltar ao topo
+API
+
+Onde estão suas APIs?
+Você pode encontrar a documentação da API do Cloud Servers e de outros produtos em nosso site de documentação de API.
+
+Para começar a usar nossas APIs, você precisa ter uma chave API. É possível obte-la seguindo as instruções contidas no artigo Como ver e gerar novamente a chave API.
