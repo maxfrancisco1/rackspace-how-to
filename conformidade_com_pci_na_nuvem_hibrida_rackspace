@@ -1,0 +1,51 @@
+permalink: conformidade_com_pci_na_nuvem_hibrida_rackspace
+audit_date:-pt
+title: Conformidade com PCI na Nuvem Híbrida Rackspace
+type: article
+created_date: '2011-03-16'
+created_by: Rackspace Support
+last_modified_date: '2016-05-20'
+last_modified_by: 
+product: Digital
+product_url: ecommerce-hosting
+
+por Mahesh Gandeh
+Atender ao padrão PCI-DSS (Payment Card Industry Data Security Standards) pode ser um exercício complexo e oneroso para o varejista de médio porte. O que é desafiador é que não há uma abordagem única para alcançar e manter a conformidade com PCI.
+Existem várias opções arquitetônicas que podem ajudar sua empresa a atingir a conformidade com PCI-DSS ao usar uma infraestrutura de nuvem híbrida.
+É importante ter em mente que a conformidade com PCI é uma dupla responsabilidade compartilhada tanto por você como pelo seu provedor de hospedagem. Uma infraestrutura de hospedagem em conformidade com PCI não significa automaticamente que seu negócio está em conformidade.
+A pedra angular do padrão PCI é a proteção de dados. Suas políticas empresariais e volume de transações com cartão de crédito são apenas dois dos fatores que devem orientar suas decisões sobre onde armazenar esses dados e como protegê-los. As opções arquitetônicas a explorar incluem:
+1.	Armazenar dados de cartão de crédito em um provedor que oferece infraestrutura compatível com PCI.
+2.	Armazenar informações de cartão de crédito usando um gateway de pagamento de terceiros transmitindo dados do lado servidor usando APIs. Eles coletam os dados e os enviam criptografados para seus servidores.  
+3.	Armazenar informações de cartão de crédito usando um gateway de pagamento de terceiros, transmitindo dados do navegador do cliente antes de chegar ao seu servidor.
+ 
+Decidindo Entre Armazenar Dados Internamente ou Usar um Gateway de Pagamento
+Compare o custo de usar um gateway de pagamento de terceiros com o custo de armazenar informações de cartão de crédito em seu datacenter ou no de um provedor. Você pode usar esses cálculos para orientar sua decisão:
+1.	Calcule o custo de produtos ou serviços adicionais necessários para armazenar dados de cartão de crédito internamente a cada mês. A equipe de vendas da Rackspace pode ajudá-lo a criar a configuração e a fornecer uma estimativa dos custos.
+2.	Calcule o custo de usar um gateway de pagamento de terceiros por mês. Esse custo é igual ao número de transações vezes o custo da transação cobrado pelo gateway de pagamento mais receitas online vezes o percentual da receita a ser pago ao fornecedor de gateway de pagamento.
+Se você descobrir que armazenar dados localmente é mais caro que usar o gateway, considere a mudança para um gateway. Se usar o gateway de pagamento for mais caro ou um gateway de terceiros for incompatível com outras políticas da empresa, considere armazenar os dados em um datacenter compatível com PCI em servidores dedicados.
+Decidindo Entre a Transmissão de Dados do Servidor ou Navegador
+Usar APIs de navegadores clientes excluirá sua infraestrutura de servidor do âmbito da conformidade com PCI, porque todos os dados confidenciais são transmitidos entre o usuário e o gateway de pagamento.
+Quando você escolher transmitir informações de cartão de crédito do lado do servidor usando APIs do gateway de pagamento de terceiros, sua infraestrutura de servidor se tornará parte da conformidade com PCI. Isso ocorre porque dados sensíveis atravessam sua infraestrutura.
+Conformidade com PCI na Hospedagem Dedicada Rackspace
+A tabela a seguir descreve como atender às diretrizes do padrão PCI usando vários produtos de terceiros e da Rackspace na infraestrutura dedicada.
+ 
+Conformidade com PCI na Nuvem Pública Rackspace
+Ao hospedar seu ambiente na Rackspace, pode também pode assinar com um processador de pagamentos separado para fornecer a geração de tokens, o que ocorre quando você substitui dados do cartão de crédito por números sem sentido ou “tokens”. Quando você aceita um pagamento, dados não-PCI são roteados para seu ambiente hospedado Rackspace, enquanto os dados do cartão de crédito em forma de token são roteados para o seu processador de pagamento.
+Como os dados do cartão de crédito dos seus clientes não são roteados para sua infraestrutura de hospedagem da Rackspace — apenas para o processador de pagamento — seu ambiente Rackspace fica fora do escopo de suas exigências de PCI.
+ 
+Confira estes parceiros de Ferramentas de Nuvem da Rackspace para serviços de gateway de pagamento recomendados pela Rackspace:
+Stripe
+Uma maneira simples e amigável para o desenvolvedor de aceitar pagamentos online, o Stripe lida com formulários de pagamento personalizados, armazenamento de cartões, assinaturas e pagamentos diretos.
+•	Recomendação: Desenvolvedores criando aplicativos de pagamento usando APIs
+•	Preço: 2,9 por cento mais US$ 0,30 por cobrança bem-sucedida (preço no momento da publicação)
+•	Saiba mais
+Braintree
+A Braintree é uma plataforma completa de pagamentos para sites e aplicativos móveis. O serviço fornece contas de clientes, gateway de pagamentos, faturamento recorrente e armazenamento de cartão de crédito, incluindo de pagamentos de um toque até SDKs para mobilidade e aceitação de moeda estrangeira.
+•	Recomendação: Desenvolvedores criando aplicativos de pagamento usando APIs
+•	Preço:  2,9 por cento mais US$ 0,30 por cobrança bem-sucedida (preço no momento da publicação)
+•	Saiba mais
+PayPal
+Com mais de 123 milhões de contas ativas em 190 mercados e 25 moedas ao redor do mundo, o PayPal permite o comércio global através de dispositivos móveis e na loja. O serviço possui detecção automática de fraude, política de proteção de vendedor e a opção de financiamento BillMeLater.
+•	Recomendação: Manipulação de moedas internacionais
+•	Preço:  2,9 por cento mais US$ 0,30 por cobrança bem-sucedida (preço no momento da publicação)
+•	Saiba mais
