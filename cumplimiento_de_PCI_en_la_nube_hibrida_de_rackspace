@@ -1,0 +1,72 @@
+permalink: cumplimiento_de_PCI_en_la_nube_hibrida_de_rackspace
+audit_date:-es
+title: Cumplimiento de PCI en la nube híbrida de Rackspace
+type: article
+created_date: '2011-03-16'
+created_by: Rackspace Support
+last_modified_date: '2016-05-20'
+last_modified_by: 
+product: Digital
+product_url: ecommerce-hosting
+
+Autores:
+
+Mahesh Gande, director sénior de soluciones
+
+Francis Ofungwu, gerente de productos de soluciones de seguridad de Rackspace
+
+Jarret Raim, gerente de productos de seguridad en la nube de Rackspace
+
+Lizetta Staplefoote, estratega de contenido en línea
+
+Cumplir con los Estándares de Seguridad de la Industria de Tarjetas de Pago (PCI-DSS) puede ser un ejercicio difícil y costoso para el comerciante electrónico promedio pues no hay una solución general.
+Existen varias opciones de arquitectura que pueden ayudar a que su negocio cumpla con los estándares de PCI-DSS por medio de una infraestructura de nube híbrida.
+Es importante recordar que el cumplimiento con PCI es una responsabilidad doble que asumen tanto usted como su proveedor de alojamiento. Alojarse en una infraestructura apegada a PCI no coloca a su negocio automáticamente dentro del marco de lineamientos.
+ 
+La piedra angular de PCI es la protección de datos. Las políticas de su compañía y el volumen de transacciones de tarjetas de crédito son solo dos de los factores que determinarán dónde decidirá almacenar y proteger la información. Algunas opciones de arquitectura a explorar son los siguientes.
+ 
+1.	Almacenar los datos de tarjetas de crédito con un proveedor que ofrezca una infraestructura que cumpla con PCI.
+2.	Almacenar la información de tarjetas de crédito usando una pasarela de pagos de terceros que transmita los datos desde el lado del servidor por medio de interfaces de programación de aplicaciones (API). Estas reciben la información y la envían codificada a sus servidores.
+3.	Almacenar la información de tarjetas de crédito a través de una pasarela de pago de terceros que transmita la información desde el navegador del cliente antes de que llegue a su servidor.
+ 
+ 
+Almacenamiento de información interno o con una pasarela de pago
+Compare el costo de usar una pasarela pago de terceros contra el costo de almacenar la información de tarjetas de crédito en su centro de datos o en el de un proveedor. Puede usar estas fórmulas para tomar una decisión.
+1.	Calcule el costo de productos o servicios adicionales que se requieren para almacenar información de tarjetas de crédito internamente cada mes. El departamento de ventas de Rackspace le puede ayudar a crear una configuración y darle un costo aproximado.
+2.	Calcule el costo mensual de usar una pasarela de pago de terceros. Ese costo equivale al número de transacciones por el costo por transacción que cobra la pasarela de pago, más ingresos en línea, por el porcentaje de ingresos que se debe pagar al proveedor de pasarela de pago.
+Si almacenar información internamente le parece costoso, considere mudarse a una pasarela. Si la pasarela de pago es más cara o no es compatible con otras políticas de la compañía, considere almacenar la información en un centro de datos que cumpla con los lineamientos de la PCI en servidores dedicados.
+Transmitir información desde el servidor o el navegador
+ 
+Al utilizar APIs de navegadores de clientes la infraestructura de su servidor no estará dentro del marco de PCI porque toda la información confidencial se transmite entre el usuario y la pasarela de pago.
+Si decide transmitir la información de tarjetas de crédito desde el lado del servidor usando APIs de pasarela de pago de terceros, la infraestructura de su servidor estará dentro del marco de la PCI, puesto que la información confidencial pasa por su infraestructura.
+ 
+Cumplimiento con PCI en alojamiento dedicado de Rackspace
+La siguiente tabla resume lo necesario para estar en cumplimiento con los lineamientos de PCI usando varios productos de Rackspace y de terceros en una infraestructura dedicada.
+ 
+Cumplimiento con PCI en la nube pública de Rackspace
+Cuando aloja su entorno con Rackspace, también puede registrarse con un procesador de pago independiente para ofrecer creación de tokens, que son números sin significado que reemplazan a los datos de las tarjetas de crédito. Cuando acepta un pago, la información que no es de PCI se dirige a su ambiente alojado en Rackspace, mientras que los tokens de los datos de la tarjeta de crédito o fichas, se dirigen a su procesador de pago.
+Puesto que los datos de la tarjeta de crédito de su cliente no se dirigen a su infraestructura alojada en Rackspace —solo al procesador de pago— su entorno Rackspace queda fuera del marco de los requerimientos de PCI.
+ 
+PROCESADOR DE PAGO DE TERCEROS
+ALMACENAMIENTO QUE NO CUMPLE CON PCI
+ 
+Estos son algunos socios de herramientas en nube de Rackspace que proporcionan servicios de pasarela de pagos y que Rackspace recomienda:
+ 
+Stripe
+Es una opción sencilla y fácil de utilizar por los desarrolladores para aceptar pagos en línea, que maneja formas de pago personalizadas, almacenamiento de tarjetas, suscripciones y pagos directos.
+•	Ideal para: desarrolladores de aplicaciones de pago que utilizan APIs
+•	Precio: 2.9% más $0.30 por cargo aprobado (precio al día de la publicación)
+•	Más información
+ 
+Braintree
+Braintree es una plataforma de pagos completa para aplicaciones móviles y sitios web. El servicio ofrece cuentas de vendedores, pasarela de pago, almacenamiento de cobros y tarjetas de crédito frecuentes, incluyendo pagos en un solo paso a kits de desarrollo de software o SDK móviles y aceptación de monedas extranjeras.
+•	Ideal para: desarrolladores de aplicaciones de pago que usan APIs
+•	Precio:  2.9% más $0.30 por cargo aceptado (precio al día de la publicación)
+•	Más información
+ 
+PayPal
+Con más de 123 millones de cuentas activas en 190 mercados y 25 monedas alrededor del mundo, PayPal hace posible el comercio global por medio de dispositivos móviles y en tiendas. El servicio incluye detección automática de fraude, Política de Protección del Vendedor, y la opción de pago BillMeLater.
+•	Ideal para: manejar monedas internacionales.
+•	Precio: 2.9% más $0.30 por cobro aceptado (precio al día de la publicación).
+•	Más información
+
