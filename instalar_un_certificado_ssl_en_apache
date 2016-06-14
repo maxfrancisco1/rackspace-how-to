@@ -1,0 +1,84 @@
+permalink: instalar_un_certificado_ssl_en_apache
+audit_date:-es
+title: Instalar un certificado SSL en Apache
+type: article
+created_date: '2011-03-16'
+created_by: Rackspace Support
+last_modified_date: '2016-05-20'
+last_modified_by:
+product: Digital
+product_url: ecommerce-hosting
+
+Contenido
+
+1 Prerrequisitos
+2 Instalar su certificado SSL
+2.1 Copiar los archivos en la configuración regional predeterminada
+2.2 Editar el httpd.conf
+3 iptables
+4 Reiniciar Apache
+//
+
+Prerrequisitos
+
+Tenga en cuenta que además de tener instalado apache y mod_ssl, necesitará una dirección de IP para este certificado SSL y una dirección de IP única para cada SSL que quiera hospedar. Las autoridades de certificados y los navegadores exigen que todos los certificados SSL se encuentren en sus propias direcciones de IP.
+
+
+Instalar su certificado SSL
+
+
+Copiar los archivos en la configuración regional predeterminada
+
+Cuando reciba su certificado SSL de su autoridad, cárguelo en su servidor y ubíquelo en ~/domain.com.ssl/domain.com.crt
+
+Copie el certificado, clave y CSR en el directorio del servidor Apache en el que planea almacenar sus certificados (por defecto: /usr/local/apache/conf/ssl.crt/ o /etc/httpd/conf/ssl.crt/).
+Nota: copie el contenido completo del certificado desde (e incluidas) las líneas -----BEGIN CERTIFICATE----- y -----END CERTIFICATE-----.
+
+
+Editar el httpd.conf
+
+Abra el archivo Apache httpd.conf en un editor de texto (prefiero VIM, el verdadero editor).
+
+Cree los siguientes Virtual Host:
+
+<VirtualHost 123.45.67.89:443>
+ServerName www.domain.com
+DocumentRoot /path/to/your/document/root/htdocs
+
+SSLEngine ON
+SSLCertificateFile /etc/httpd/conf/ssl.crt/domain.com.crt
+SSLCertificateKeyFile /etc/httpd/conf/ssl.key/domain.com.key
+
+ErrorLog logs/ssl.domain.com.error_log
+CustomLog logs/ssl.domain.com.access_log combined
+</VirtualHost>
+tenga en cuenta que las rutas a los archivos de certificados tendrán que cambiarse cada vez que decida ubicar su certificado.
+Guarde los cambios y salga del editor.
+
+Guarde los cambios y salga del editor.
+
+
+iptables
+
+Posiblemente necesite abrir un puerto en su firewall para permitir las conexiones SSL al puerto 443. Para verificar, obtenga una lista de las reglas de su firewall:
+
+sudo /sbin/iptables -L
+Si tiene un sistema iptables activo pero este no tiene ninguna excepción para el puerto 443, tendremos que agregar algunas:
+
+sudo /sbin/iptables -I INPUT -p tcp --dport 443 -m state --state NEW,ESTABLISHED -j ACCEPT
+sudo /sbin/iptables -I OUTPUT -p tcp --sport 443 -m state --state ESTABLISHED -j ACCEPT
+Recuerde agregar las reglas a su archivo de configuración de iptables o, en distribuciones basadas en Red Hat, ejecutar:
+
+sudo /sbin/service iptables save
+
+Reiniciar Apache
+
+Reiniciar su servidor web apache
+
+# /etc/init.d/httpd restart
+or
+# /etc/init.d/apache2 restart
+Pruebe su certificado utilizando un navegador que se conecte a su servidor. Use la directiva de protocolo https (por ejemplo, https://su servidor/) para indicar que desea utilizar un HTTP seguro.
+
+Nota: el icono del candado en el navegador se mostrará en posición bloqueada si los certificados se instalaron correctamente y el servidor está correctamente configurado para SSL.
+
