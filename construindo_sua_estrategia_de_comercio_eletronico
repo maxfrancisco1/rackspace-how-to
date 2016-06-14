@@ -1,0 +1,135 @@
+permalink: construindo_sua_estrategia_de_comercio_eletronico
+audit_date:-pt
+title: Construindo sua estratégia de comércio eletrônico
+type: article
+created_date: '2011-03-16'
+created_by: Rackspace Support
+last_modified_date: '2016-05-20'
+last_modified_by: 
+product: Digital
+product_url: ecommerce-hosting
+
+
+O comércio eletrônico refere-se à soma de todas as interações que um cliente tem com a sua empresa em experiências no seu site, via dispositivos móveis e em outros meios digitais. Quanto mais um cliente compra em seu site, mais é provável que ele indique a loja para seus amigos e a família. A experiência da marca que você cria online é parte fundamental para trazer compradores e espalhar sua reputação através da propaganda boca a boca e atrair novos clientes.
+Começar com uma estratégia básica de comércio eletrônico ajuda a identificar e planejar para preencher as lacunas, trabalhar a conformidade e suportar a satisfação do cliente, considerando todas as partes da sua loja. Sem uma estratégia, você pode enfrentar:
+•	Layouts confusos que resultam em aumento das taxas de rejeição
+•	Problemas de segurança, causando a perda da confiança e má impressão na mídia
+•	Falta de respeito, resultando em grandes multas ou incapacidade de fazer pagamentos
+•	Um mau planejamento dos recursos, o que pode levar a interrupções que não permitem mais vendas
+O resultado desejado do cliente deve dirigir o foco de negócios, as tecnologias utilizadas e as medidas de segurança implementadas para construir uma relação de confiança, lealdade, negócios futuros e indicações.
+1 segundo de atraso na resposta pode levar à queda de 7% na taxa de conversões1.
+Elementos da Estratégia de Comércio Eletrônico
+O caminho que um comerciante leva para construir sua experiência ideal de cliente é exclusivo para sua indústria, visão da marca e objetivos, mas deve incluir estes elementos:
+•	Estratégia baseada em usuário para caminhos estéticos e de compra
+•	Seleção da plataforma, incluindo um plano para recriação da plataforma, quando aplicável
+•	Funcionalidade móvel apropriada para o mercado, a partir de seu site de área de trabalho
+•	Medidas de segurança e conformidade, conforme indicado pela sua indústria
+•	Preparação para tráfego de pico, incluindo testes de carga e benchmarking de desempenho
+Neste artigo, abordaremos as noções básicas de cada um destes elementos como ponto de partida para a construção e execução da experiência ideal do cliente.
+Foco Baseado no Usuário
+Pense como um cliente. Isso começa considerando a aparência e o fluxo de sua presença online e estende-se através de seus esforços de mídia social e outras atividades online. Sua página inicial deve dizer “olá” como um balconista faria em uma loja física e conduzir o usuário através de seu site com instruções relevantes, informações abundantes, tamanhos apropriados de imagens, consistência no design, navegação lógica e um ambiente seguro.
+Use páginas dinâmicas para servir conteúdo personalizado baseado no perfil do usuário. Por exemplo, uma varejista de artigos esportivos poderia exibir uma página inicial que destaque um equipamento de camping. Um usuário anterior que tenha buscado barracas pode ver esta página inicial, enquanto um usuário que tenha buscado jet-skis pode ser servido com conteúdo inteiramente diferente. Recursos de pesquisa avançada fornecem aos usuários uma maneira rápida de encontrar exatamente o que eles estão procurando quando não querem navegar por todo o site. Adicione conteúdo que suporte o processo de compra, como comentários de outros clientes, várias visões do produto e um chat ao vivo ajuda a melhorar a experiência e transformar os navegadores do site em clientes fiéis.
+Para determinar quais recursos são certos para seu produto e seus clientes, use pesquisas analíticas e sobre o público-alvo. Isso ajudará você a descobrir o que está funcionando ou faltando agora. Executar as funcionalidades mais avançadas pode significar mais do que apenas alterar texto e imagens. Em vez disso, você pode precisar repensar ou reformular os esquemas de banco de dados existentes e maneiras de escalar sistemas para a coleta, armazenamento e manipulação de novos tipos de dados.
+Consulte o Guia da Experiência do Cliente no Comércio Eletrônico para ajudar a construir sua estratégia de experiência de cliente.
+Escolhendo sua Plataforma de Comércio Eletrônico
+Sua plataforma de comércio eletrônico consiste do software, como Magento, Oracle Commerce, Adobe ou outros, juntamente com a infraestrutura selecionada para executar o software.
+A decisão de software deve basear-se em suas metas em torno da experiência do cliente. Se seu site precisa da opção de configurar produtos individualmente, mas seu software de comércio eletrônico não suportar isso, você não poderá oferecer a experiência que planejou. Da mesma forma, executar uma plataforma de comércio eletrônico de recursos pesados em hardware de baixo desempenho é uma má ideia, pois a taxa de rejeição de clientes será maior devido à carga lenta das páginas. Suas opções para a infraestrutura de comércio eletrônico incluem:
+•	Nuvem: Aproveite a infraestrutura massivamente escalável e os ambientes pré-configurados ou altamente personalizáveis para reduzir os custos de gerenciamento e de hardware. Escolha uma nuvem pública de baixo custo ou uma nuvem privada para cargas de trabalho sujeitas a rigorosos controles de segurança ou de conformidade.
+•	Ambiente local: Coloca o ônus do hardware, segurança, desempenho e escala em sua equipe de TI e em seu orçamento. Esta abordagem fornece controle total, porém todas as dores de cabeça associadas, com você sendo responsável por toda a infraestrutura de comércio eletrônico.
+•	Nuvem Híbrida: Combina o ambiente local ou hardware dedicado com recursos de nuvem para conseguir eficiências de nuvem cumprindo determinadas necessidades de segurança ou conformidade. Em um ambiente híbrido, um varejista pode optar por mover determinadas cargas de trabalho, como e-mails ou entrega de conteúdo para a nuvem, mantendo o controle sobre outros sistemas críticos melhor executados em ambiente dedicado ou equipamento local.
+Leia o artigo Replataforma Básica no Comércio Eletrônico para obter mais orientações sobre o planejamento e execução de um projeto de replataforma.
+Funcionalidade Móvel
+A experiência móvel aproveita funcionalidades específicas de dispositivos móveis, como “clique para ligar”, integração com GPS para mapas ou geolocalização, reconhecimento de gestos e outros. Imagine tentar trabalhar com a localização de clientes em uma área central da cidade com servidores lentos que não entregam a notificação até horas depois.
+O comércio móvel (Mcommerce) é responsável por 1 em cada 10 dólares de comércio eletrônico e deverá crescer para US$ 86 bilhões até 20162.
+O comércio móvel também vem com um novo conjunto de regras de usabilidade. A profundidade do conteúdo de seu site tem que encolher para telas menores, enquanto os elementos como botões e imagens precisam de mais espaço de tela para acomodar o toque no celular. O uso de plug-ins sociais e a operação do carrinho de compras também precisam ser simplificados para melhorar — não desordenar — o fluxo da compra.
+Ao longo dos anos, as empresas têm abordado suas plataformas móveis e de área de trabalho com estratégias distintas. Isto muitas vezes resultou em uma versão otimizada para dispositivo móvel de um site e/ou um aplicativo móvel nativo. No entanto, manter um aplicativo de área de trabalho e móvel em isolamento muitas vezes gera experiências desconectadas e insatisfação do usuário quando o aplicativo móvel mais recente não flui ou opera da mesma forma que o site tradicional para área de trabalho. Um design responsivo permite que operadores de comércio eletrônico projetem um site único que é apresentado de forma diferente em diferentes dispositivos, uma abordagem que economiza recursos através da reutilização de imagens e de conteúdo. Isto permite uma experiência visual e de conteúdo consistente em todos os meios de acesso: na área de trabalho, em celulares e tablets.
+Saiba mais sobre como usar pilhas móveis pré-configuradas para suportar a sua experiência móvel. 
+Preparação para o Tráfego de Pico
+Quase metade das empresas (48%) relatam que o tempo de inatividade impacta negativamente em sua marca e reputação3. A incapacidade de manter as operações durante uma falha ou um pico de tráfego é um risco enorme para um site de comércio eletrônico. Se seu ambiente encontra um problema com um patch, uma atualização de código, uma falha de serviço ou de componente de hardware ou um desastre natural, o que acontece com seu site? Você tem um plano de contingência para problemas de inatividade esperados e inesperados? Documentar sua estratégia de comércio eletrônico permite identificar e atender às necessidades de infraestrutura que podem afetar negativamente o desempenho.
+Testes de estresse, o equivalente a executar um “exercício de incêndio” em seu site, é parte integrante da compreensão das operações do site e de onde existe a necessidade de otimizações. Cada sistema tem limites físicos e a maioria dos ambientes de comércio eletrônico são únicos. Sob estresse, um site pode revelar uma fraqueza ou uma pausa na operação, permitindo que você otimize o seu site para atenuar o risco antes de reclamações de clientes irritados ou uma reação nas redes sociais.
+Realize testes anuais ou trimestrais de desempenho, idealmente durante períodos de baixa para que os sistemas primários não sejam afetados. O teste deve avaliar o desempenho de todo o ambiente de comércio eletrônico — da taxa de transferência da rede até a E/S dos discos, a velocidade de failover e até mesmo a utilização de memória e CPU — pois apenas um elo fraco é suficiente para derrubar todo o ambiente.
+Não tem certeza de quanto custa o tempo de inatividade para você? Assista ao vídeo Seja Resiliente e Esteja Pronto para receber orientações sobre o cálculo dos custos de tempo de inatividade e planejamento de recuperação de desastres.
+Medidas de Conformidade e Segurança
+Transações de comércio eletrônico constroem a confiança do consumidor, limitando o risco de atividades fraudulentas, enquanto garantem a privacidade da informação dos consumidores. No entanto, há nove anos, o relatório de investigações de violação de dados da Verizon já registrou mais de 1,2 bilhão de registros violados, com 24% das violações atribuídas a transações de varejo4. Esses registros incluem números de cartão de crédito, informação pessoal identificável ou dados de titulares de cartão que foram perdidos, roubados ou acessados sem autorização.
+Para minimizar esse risco, a Payment Card Industry (PCI) criou um conselho, o Payment Card Industry Security Standards Council (PCI SSC), encarregado de estabelecer e manter o PCI-DSS (Payment Card Industry Data Security Standards). O PCI DSS ajuda a atenuar as vulnerabilidades associadas à transmissão, armazenamento e/ou processamento de dados de titulares de cartão, especificamente o número da conta primária.
+6% das empresas em 2012 foram sujeitas ao PCI DSS e possuíam brechas por não estarem em conformidade5.
+Alcançar a conformidade com o PCI DSS é um processo contínuo de realização de avaliações, esforços de remediação e geração de relatórios dos resultados. O Conselho mantém uma biblioteca de documentação para ajudar os comerciantes e prestadores de serviços a atenuarem o risco e manterem as transações online seguras.
+As empresas que utilizam as transações online devem identificar primeiramente os riscos potenciais para o consumidor e para o próprio negócio. Se os recursos existentes não puderem executar essas funções de forma suficiente e confiável, considere uma solução que melhor se encaixe ao seu modelo de negócios e proteja todas as partes envolvidas, em conformidade com o PCI DSS. Sites de comércio eletrônico têm três maneiras de atender aos requisitos do PCI DSS:
+•	Usar um gateway de pagamento que envolve a integração com uma API (Interface de programa de aplicativo) para facilitar a transmissão do número da conta primária, com ou sem o armazenamento dessas informações
+•	Transmitir e armazenar o número da conta primária internamente
+•	Optar por terceirizar a transmissão, armazenamento e/ou processamento de dados de pagamento
+Em última análise, a rota de que uma organização leva para atender aos requisitos do PCI DSS é uma decisão de negócios e deve ser avaliada com cuidado.
+Segurança Geral do Site
+O PCI DSS abrange as melhores práticas para a proteção das informações confidenciais do portador do cartão. Há pouca orientação sobre como proteger os elementos do comércio eletrônico fora da conformidade com o PCI. Ataques de DDoS e vírus transmitidos por e-mail ainda podem acabar com as operações de um site em conformidade.
+Os sistemas (servidor, armazenamento, software, etc.) que suportam o comércio eletrônico podem ser difíceis e caros para proteger e gerenciar. É aqui, nestes tipos de cargas de trabalho, que as soluções de nuvem híbrida estão ganhando adoção. Com uma abordagem híbrida de nuvem, comerciantes podem tirar proveito das eficiências da nuvem, mantendo sistemas em conformidade para realmente transmitir, processar, e/ou armazenar informações de titulares de cartão em equipamento local ou dedicado.
+Saiba como integrar seus esforços de conformidade com o PCI na nuvem lendo o artigo Conformidade com PCI na Nuvem Híbrida
+Introdução
+Mapeando Processos e o Fluxo do Site
+O fluxo do site geralmente é mapeado através de fluxogramas ou software que permite que você visualmente defina o layout dos caminhos de compra. A lista a seguir representa os elementos básicos do fluxo local, categorizados em atividades de negócios, técnicas e voltadas para o cliente. Seu site pode ter mais ou menos elementos de acordo com seus objetivos de experiência:
+Negócios:
+•	Campanhas de marketing, promoções de vendas, ou menções na mídia que geram clientes para o site
+•	Atividade de mídias sociais que geram tráfego
+•	Acesso interno/de funcionários ao site para referência
+Cliente:
+•	Usuários acessam o site usando um navegador da internet em seus computadores, celulares ou tablets
+•	Solicitação viaja através da Internet (servidores de cache de nomes/servidores de nomes raiz)
+Técnico:
+•	URL registrada configurada para resolver para um endereço IP público através do DNS e IP resolvido para um provedor de serviços de Internet
+•	Solicitação de endereço IP enviada através de uma série de roteadores para seu datacenter
+•	Endereço IP e número de porta (80-http/443-https) viajam através de uma série de switches
+•	Servidor de serviço Web aceita o pedido e responde com conteúdo ou envia uma solicitação para um servidor de banco de dados
+•	Informação viaja de volta para o cliente para cada solicitação.
+Cliente:
+•	Visualiza dados solicitados
+•	Toma uma decisão para continuar navegando no site
+•	Adiciona um item ao aplicativo web/carrinho
+•	Continua através do processo de check-out
+Técnico:
+•	Processo de registro do site e/ou check-out deve aderir às normas de privacidade
+•	Gateways de pagamento devem atender às diretrizes de conformidade
+•	Confirma o método de pagamento usado
+Negócios:
+•	Gera a confirmação de compra
+•	Comunicação de acompanhamento transacional e do pedido
+•	Estoque e coordenação da entrega
+O Inventário
+Uma vez que você tenha mapeado o fluxo local, criar o inventário ajudará a definir os componentes individuais que você já tem, ou que você precisa ter, a fim de executar os processos e o fluxo do site como planejado. Um inventário bem desenvolvido orienta a estratégia que proporciona uma experiência de usuário superior. Ele também pode revelar áreas para melhoria e aquelas áreas que ninguém pensa sobre até que algo der errado, como segurança ou funcionalidade de carrinho de compras. O inventário de um site de comércio eletrônico pode incluir:
+ 
+Itens que abrangem vários departamentos. Todas as partes interessadas devem salientar os aspectos de seu foco particular que não são representados. Por exemplo, examinar o inventário de uma perspectiva de negócio pode apontar que o marketing não está na lista e sem o marketing não haveria qualquer cliente visitando o site. A perspectiva técnica vai descobrir deficiências do datacenter ou de hardware. A perspectiva de segurança pode avaliar firewalls, certificados SSL ou os mais de 200 outros requisitos que devem ser considerados para um site de comércio eletrônico.
+A criação de um inventário investigativo é cansativo, no entanto é um primeiro passo importante para a compreensão de como as peças do seu site funcionam juntas. Depois de ter concluído este inventário, você terá uma melhor compreensão do que você precisa fazer para implementar as tecnologias e os processos necessários para apoiar o seu site.
+Resumo
+De acordo com o estudo de 2014 da Forrester e da Shop.org, intitulado “O Estado do Varejo Online”, clientes antigos representaram 51% das receitas de um site. Quatro em cada dez de seus concorrentes estão planejando uma revisão do site este ano6 , o que significa que é hora de dar uma olhada ou atualizar sua estratégia de comércio eletrônico para você não ficar para trás.
+Precisa de ajuda?
+Com profunda experiência e especialização nas principais plataformas digitais, a Rackspace Digital é capaz de fornecer orientações sobre as melhores práticas, arquitetura, bem como suporte proativo nas seguintes competências:
+•	Conteúdo – fornece especialização em hospedagem de aplicativos e infraestrutura para as principais plataformas de gerenciamento de conteúdo web, permitindo a entrega de experiências online consistentes, ágeis e confiáveis para os clientes. Isso inclui plataformas como WordPress, Drupal, Sitecore, Adobe e Ektron.
+•	Comércio – usando uma infraestrutura aberta e híbrida, e serviços para construção de lojas seguras, escaláveis e altamente disponíveis para estender, expandir e melhorar a receita online através de plataformas como Magento, Oracle Commerce, Hybris e Intershop.
+•	Mobilidade – fornece uma infraestrutura flexível e móvel e especialização em uma plataforma de hospedagem de aplicativos em node.js, FeedHenry e MutualMobile para permitir aos usuários desenvolver serviços móveis altamente escaláveis e confiáveis para os clientes.
+Clientes Reais Falam Sobre Benefícios Reais de Adotar a Rackspace Digital em Suas Estratégias de Comércio Eletrônico:
+Conformidade
+ “É verdade dizer que sem a quantidade considerável de ajuda da Rackspace, talvez não passaríamos pela excepcionalmente rigorosa auditoria do PCI. A Rackspace certamente foi além do seu escopo para garantir que tudo estava perfeito para nós.”
+Aingaran Somaskandarajah
+Líder Técnico, Oyster Card
+Disponibilidade
+ “Nosso tráfego e negócios podem aumentar de 100 a 1000 vezes quando comparamos com a baixa temporada. Temos que escalar totalmente, mas também temos que procurar manter o mínimo de infraestrutura no período de baixa. É por isso que adotamos a Nuvem Híbrida da Rackspace baseada no RackConnecttm – dividimos nosso aplicativo entre uma infraestrutura privada dedicada para nosso processo de check-out; e usamos a nuvem pública para as descrições dos produtos, preços e outras informações. ”
+Steve Vitale
+Diretor de Comércio Eletrônico, Spencer Gifts
+Desempenho
+ “Com a Rackspace, a Karmaloop pode implantar uma variedade de servidores de última geração sempre que necessário e acionar esses servidores para escalar rapidamente, o que permite à empresa manter incrível o desempenho do usuário, o tempo de carregamento da página muito rápido e fornecer aos clientes um tempo de atividade de 100%.”
+Gary Rush
+CTO, Karmaloop
+Mobilidade
+ “A confiabilidade da Rackspace forneceu ao Acquity Group a liberdade para nos concentrarmos na criação de grandes aplicativos e integrar clientes sem nos preocuparmos com a infraestrutura.”
+Kevin Ellenwood
+Vice-Presidente de Serviços Compartilhados, Acquity Group, Parte da Accenture Interactive
+Economia
+ “A nuvem nos dá flexibilidade e redução de custos e não vejo por que não podemos mover algo como 80% de nossas cargas de trabalho totais para a nuvem, incluindo aplicativos críticos de negócios e cargas de trabalho móveis.”
+Colin Rees
+Diretor de TI, Domino’s Pizza
+1http://www.strangeloopnetworks.com/resources/infographics/web-performance-and-user-expectations/ poster-visualizing-web-performance /
+2http://www.internetretailer.com/trends/sales/
+3http://www.itbusinessedge.com/slideshows/show.aspx?c=90238&slide=8
+4http://www.verizonenterprise.com/DBIR/2013/
+5http://www.verizonenterprise.com/DBIR/2013/
+6http://www.nrf.com/modules.php?name=News&op=viewlive&sp_id=1757
+ 
+
