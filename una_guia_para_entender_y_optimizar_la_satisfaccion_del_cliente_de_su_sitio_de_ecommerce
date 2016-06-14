@@ -1,0 +1,72 @@
+permalink: una_guia_para_entender_y_optimizar_la_satisfaccion_del_cliente_de_su_sitio_de_ecommerce
+audit_date:-es
+title: Una guía para entender y optimizar la satisfacción del cliente de su sitio de ecommerce
+type: article
+created_date: '2011-03-16'
+created_by: Rackspace Support
+last_modified_date: '2016-05-20'
+last_modified_by:
+product: Digital
+product_url: ecommerce-hosting
+
+La experiencia del cliente en línea y fuera de línea varía enormemente.  En una tienda tradicional, los clientes usan señales físicas para evaluar el profesionalismo y la competencia de un establecimiento. Al ingresar a una tienda local de artículos electrónicos, es fácil evaluar el profesionalismo con base en qué ropa usan los empleados, cómo reciben a los clientes y la organización y la limpieza de la tienda. Usted suele conocer el proceso de transacción y sale de la tienda con su compra al instante.  Sabe por instinto que si tiene algún problema con la compra, puede regresar a este lugar para que se lo solucionen.
+Un minorista de comercio electrónico no cuenta con estas señales.  El diseño, el lenguaje, los procesos y el contenido determinan de qué manera un comprador potencial percibe y, en última instancia, interactúa con un negocio.  Para muchos consumidores, tener que confiar en que un minorista en línea hará buen uso de la información de pago, entregará el producto a tiempo y prestará su servicio tras la compra puede ser un impedimento potencial para completar el proceso de compra. El proceso detrás de la transacción está oculto y muchas veces es confuso para el usuario promedio. Además, las compras en línea conllevan otras preocupaciones sobre la privacidad y la seguridad que aumentan aún más el riesgo percibido.
+Una experiencia positiva del cliente resultará en más ventas y buenas recomendaciones de boca en boca. Una experiencia negativa no solo reduce la posibilidad de ventas futuras, sino que también puede generar comentarios negativos de boca en boca que dificultan la adquisición de nuevos clientes. Si bien construir un imperio de comercio electrónico hoy es más fácil que nunca gracias los avances tecnológicos, ignorar las señales emocionales y lógicas que los compradores necesitan para sentirse seguros al hacer una transacción en línea puede impedir el crecimiento de los mejores modelos de negocios. Este documento ofrece un contexto para comprender la importancia de la experiencia del cliente de comercio electrónico y consejos sobre cómo evaluar y mejorar la experiencia de sus clientes.
+¿Por qué centrarse en la experiencia del cliente?
+Como quería evitar un viaje semanal al supermercado, Michael Aldrich creó el comercio electrónico en 1979 al conectar su televisor a un centro de procesamiento a través de una línea telefónica. En la década de 1990, la tecnología para las compras en línea tuvo un gran desarrollo y ahora se espera que llegue a $327 mil millones para el año 2016.1 El nuevo consumidor experto en tecnología presenta una serie de desafíos únicos para los minoristas de comercio electrónico:
+•	Menos tiempo de calidad: un sitio web debe satisfacer la necesidad de sus usuarios y convencerlos de emprender una acción, en cuestión de segundos. Una investigación reciente muestra que, si bien los ingresos por visita a los sitios de comercio electrónico están en aumento, el tiempo que se pasa en el sitio ha disminuido a aproximadamente dos y tres cuartos de minuto.2 Esto ejerce aún más presión sobre los minoristas de comercio electrónico para que demuestren valor, generen confianza y motiven la acción.
+•	Mayor competencia: ante el crecimiento de las ganancias del comercio electrónico, se prevé un aumento de la cantidad de jugadores en busca de una tajada del pastel. La mayor competencia forzará a las tiendas de comercio electrónico a diferenciarse en algo más que su línea de productos o precios. En las encuestas, 86% de los compradores están dispuestos a pagar más por un producto o servicio a fin de tener una mejor experiencia.3 La nueva tienda de comercio electrónico debe enfocarse en crear una experiencia del cliente adecuada en cada etapa del ciclo de compra. Por ejemplo, la experiencia del cliente de un minorista de ropa será completamente diferente a la de un minorista de repuestos de auto.
+•	Velocidad de la tecnología: la tecnología ofrece poder a un consumidor moderno. En la década de los 90, el único lugar para hacer compras en línea era la computadora de escritorio. En la actualidad, los consumidores están conectados a millones de opciones y medios de compras, como PC, tabletas y smartphones. A medida que la competencia crece, los clientes esperan experiencias de compra perfectas entre los canales en línea y fuera de línea. La proliferación de dispositivos y la mayor cantidad de plataformas de interacción alternativas mediante medios sociales y aplicaciones de compra ofrecen a los minoristas más oportunidades para relacionarse con los compradores mientras introducen nuevos requisitos de diseño y desempeño para mantenerse actualizados.
+Elementos de una buena experiencia del cliente
+DESEMPEÑO DEL SITIO
+El indicador principal del desempeño del sitio es el tiempo de carga de la página. Por cada segundo que su página tarda en cargar, la satisfacción del cliente desciende 7%.4 La mayoría de los usuarios esperan que su sitio se cargue en menos de tres segundos.5 Sin embargo, un estudio reciente indica que el tiempo de carga promedio de los 2,000 sitios web más importantes es de diez segundos.6 Casi un tercio de los clientes insatisfechos menciona la lentitud en la carga de páginas como la razón de su insatisfacción.7
+Algunos de los factores que contribuyen a la lentitud en la carga de páginas son los siguientes:
+•	Archivos de imágenes y videos sin comprimir
+•	Scripts de terceros para medios sociales, análisis, avisos publicitarios, datos de ubicación y chat
+•	Mecanismos de almacenamiento y distribución de contenido inadecuados
+•	Integración con portales de pago, foros y otros complementos
+•	Latencia entre las solicitudes del servidor en largas distancias
+Si su página se carga en un abrir y cerrar de ojos, aproximadamente 250 milisegundos más lento que la competencia, podría perder la venta.8
+
+COMPATIBLE CON DISPOSITIVO MÓVIL
+Las ventas de comercio electrónico móviles prácticamente se han duplicado durante los últimos dos años con un crecimiento de 81% en 2012 (y se espera que aumenten otro 55% en 2013).9 Un operador de comercio electrónico sin una estrategia móvil definida se arriesga a perder una ventaja competitiva.  La estrategia móvil debe incluir la optimización de su sitio y los procesos de transacción para múltiples dispositivos, así como la evaluación de sus sistemas backend para garantizar la accesibilidad y velocidad móvil.
+¿CÓMO ES LA COMPATIBILIDAD MÓVIL DE SU SITIO?
+•	¿Su sitio web se visualiza igual en todos los dispositivos? Una página web diseñada para una computadora de escritorio puede requerir un uso excesivo de la función de desplazamiento para un usuario de un smartphone o tableta que la mira en una pantalla mucho más pequeña.
+•	¿Se visualizan bien sus archivos de imágenes y videos?  Con frecuencia, las imágenes y los videos diseñados para pantallas más grandes no se visualizan de manera óptima o no funcionan correctamente en dispositivos móviles.
+•	¿Son claras las áreas de entrada de formularios y las zonas táctiles?  Deje un espacio entre los campos de entrada de texto, los botones y otros puntos de acción para que se ajuste al tamaño del dedo a diferencia del clic del cursor.  Considere reemplazar el texto con íconos para reducir el espacio de texto en la pantalla.
+•	¿Utiliza ventanas emergentes para el registro a boletines informativos, encuestas u ofertas especiales?  Navegar por múltiples páginas o pestañas no es tan fácil en un dispositivo móvil. Si estos elementos son importantes, es mejor incorporarlos en el contenido de la página.
+•	¿Ha agregado funciones específicas para móviles en su sitio?  La capacidad móvil ofrece funciones extra como opciones de navegación y llamadas con un clic para ubicaciones físicas.
+84% de los adultos estadunidenses experimentan dificultades para completar las transacciones móviles.10
+FACILIDAD DE USO DEL SITIO
+Un sitio accesible y de alto desempeño con múltiples plataformas puede fallar si el diseño del sitio es difícil de navegar o tiene elementos que no funcionan. Se estima que las tiendas de comercio electrónico desaprovechan cerca de $44 mil millones por errores en los carritos de compra, enlaces rotos y otros problemas relativos a la transacción.11 Las mejoras en la navegación y el flujo de información para mayor facilidad de uso pueden brindar hasta 83% de desempeño de la inversión.12
+PROBLEMAS COMUNES DEL USO DEL SITIO
+Diseño incoherente:  cuando una página no se ve que igual que otras páginas del sitio, los usuarios pueden tardar más en comprobar si están en la página correcta en lugar de prestar atención a las ofertas de productos.
+•	Elementos rotos: ya sea un enlace roto o un video que no se reproduce, si el sitio tiene funcionalidades que no pueden utilizarse, los usuarios pueden perder la confianza en una empresa.
+•	Texto confuso: los títulos y las listas deben organizarse para que los usuarios puedan buscar rápidamente la información pertinente.  Para lograr una máxima claridad, las palabras usadas para describir productos, comunicar ofertas especiales o guiar a los usuarios a través del proceso de pago no deben tener terminología especializada, siglas poco conocidas ni una gramática incorrecta.
+•	Mala organización del sitio: para diseñar una navegación y enlaces orientados a satisfacer las necesidades de los usuarios, el operador de comercio electrónico debe comprender el proceso lógico que los usuarios utilizan para tomar decisiones de compra. Implementar pruebas de usuarios y revisar la analítica puede ayudar a identificar obstáculos o brechas en la ruta de compra.
+Nordstrom, el gran minorista en línea y fuera de línea, recientemente invirtió millones para mejorar su sitio y su facilidad de uso, lo que generó un crecimiento de 37% en las ventas por canales de comercio electrónico.13
+Desarrollo de su estrategia de experiencia del cliente
+A medida que diseña o rediseña la experiencia de su sitio utilice estos pasos de acción de alto nivel, que le guiarán en el proceso:
+¿Dónde estamos actualmente?
+•	Reúna comentarios de clientes actuales o lleve a cabo encuestas de usuarios
+•	Revise los informes de desempeño y análisis
+•	Realice una auditoría competitiva de otros sitios en su sector
+•	Audite el contenido, el flujo de páginas, la navegación y otros elementos de su sitio en relación a  la facilidad de uso
+¿Dónde queremos estar?
+•	Determine de qué manera se enlazan la estrategia global de la marca, los objetivos de su sitio de comercio electrónico y los objetivos de la experiencia del cliente
+•	Cree documentos de requisitos para empresas y usuarios
+•	Defina y priorice su experiencia del cliente ideal
+¿Cómo llegamos a ese punto?
+•	Desarrolle una hoja de ruta basándose en su experiencia del cliente ideal
+•	Comience a desarrollar imágenes y flujos de usuarios
+•	Identifique la tecnología o el talento que necesita para lograr sus objetivos
+¿Ya hemos llegado?
+•	Enumere las métricas y los informes de éxito
+•	Documente los objetivos de revisión de estrategia
+Diseño de la experiencia en acción en Rackspace
+Hemos dedicado mucho tiempo y energía a incorporar los principios de experiencia del cliente en nuestro sitio web principal y en el diseño de nuestro panel de control y estructura de soporte. En Rackspace, diseñamos nuestra experiencia del cliente con base en estos cuatro principios:
+1.	Diseñar únicamente productos excelentes no es suficiente. Los productos necesitan reflejar los valores que personifican nuestros empleados: simple e intuitivo.
+2.	Las interfaces de usuario (no solo la tecnología, sino todos los puntos de contacto) deben ser coherentes con la marca Rackspace. Nos referimos a experiencias esenciales, no solo a la apariencia. Antes de preocuparnos demasiado por cómo se ve, debemos considerar si estamos diseñando el producto adecuado y si se está diseñando bien.
+3.	Las interacciones con los empleados y el producto deben ser parte de una experiencia lógica. En otras palabras, las propias interacciones se deben percibir como acciones de apoyo.
+4.	Cuando diseñamos sistemas, debemos pensar en ellos no solo como piezas de software, sino también como una cadena completa de momentos de causa y efecto que constituyen una experiencia, que puede incluir al usuario, el empleado y las acciones electrónicas (automáticas).
+Para conocer más a fondo cómo abordamos el diseño de la experiencia, lea Diseño de la experiencia en Rackspace por Harry Max, vicepresidente de Diseño de experiencia.
