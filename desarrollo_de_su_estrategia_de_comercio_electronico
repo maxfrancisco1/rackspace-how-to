@@ -1,0 +1,126 @@
+permalink: desarrollo_de_su_estrategia_de_comercio_electronico
+audit_date:-es
+title: Desarrollo de su estrategia de comercio electrónico
+type: article
+created_date: '2011-03-16'
+created_by: Rackspace Support
+last_modified_date: '2016-05-20'
+last_modified_by: 
+product: Digital
+product_url: ecommerce-hosting
+
+El comercio electrónico se refiere a la suma de todas las interacciones que un cliente tiene con su empresa, ya sea a través del sitio web, de dispositivos móviles o de otros entornos digitales. Cuantas más operaciones realice un cliente a través de su sitio web, más probable será que recomienden su empresa a amigos y familiares. La experiencia de la marca que usted crea en línea es una estrategia integral para fidelizar a sus consumidores y atraer nuevos clientes gracias a la difusión boca en boca de la reputación de su empresa.
+El primer paso es desarrollar una estrategia de comercio electrónico básica que lo ayude a identificar brechas y planificar acciones, verificar el cumplimiento de las normas y garantizar la satisfacción del cliente al considerar todas las partes móviles de su tienda. La falta de una estrategia puede ocasionarle los siguientes inconvenientes:
+•	Diseños confusos que pueden aumentar la tasa de rebote
+•	Problemas de seguridad que generarán una pérdida de confianza y mala reputación para su organización
+•	Incumplimiento de las normas, que puede originar multas elevadas y la incapacidad de afrontar pagos
+•	Mala planificación de recursos, que puede derivar en interrupciones que perjudiquen las ventas
+El resultado deseado en cuanto a satisfacción del cliente definirá el enfoque comercial, las tecnologías utilizadas y las medidas de seguridad implementadas para desarrollar la confianza y lealtad de los clientes y lograr que sigan comerciando con usted al tiempo que lo recomiendan.
+Una demora de un segundo en brindar una respuesta puede dar como resultado un descenso de 7% en conversiones1. 
+Elementos de la estrategia de comercio electrónico
+El camino elegido por un comerciante para desarrollar su experiencia ideal para el cliente es exclusivo de su industria, visión de la marca y objetivos; sin embargo, debe incluir estos elementos:
+•	Estrategia basada en el usuario para definir aspectos estéticos y vías de compra
+•	Selección de la plataforma, incluido un plan para definir una nueva plataforma, en caso de ser necesario
+•	Funcionalidad móvil adecuada al mercado, exclusiva desde su sitio web de escritorio
+•	Medidas de seguridad y cumplimiento de normas específicas de su industria
+•	Preparación para soportar tráfico pico, incluidos una prueba de carga y estudios comparativos de desempeño.
+Este documento describe los conceptos básicos de cada elemento como punto de partida para desarrollar e implementar su experiencia de cliente óptima.
+Enfoque orientado al usuario
+Piense como cliente. En primer lugar, tome en cuenta la apariencia, sensación y flujo de su presencia en línea. Luego, analice sus actividades en los medios sociales y otras actividades en línea. Su página de inicio debe decir “¡hola!” como si estuviese ante un cliente en una tienda real. A partir de allí, el diseño del sitio debería promover la navegación, al presentar mensajes relevantes, información ubicada en lugares visibles, tamaños de imagen adecuados, un diseño coherente, la posibilidad de navegar de forma local y un entorno seguro.
+Utilice páginas dinámicas para presentar contenidos personalizados en base al perfil del usuario. Por ejemplo, un comerciante minorista de artículos deportivos podría mostrar una página de inicio que resalte la oferta de equipos para acampar. Esta página de inicio puede ser ideal para un usuario anterior que haya buscado tiendas, mientras que un usuario que haya buscado motos acuáticas puede verse atraído por un contenido completamente diferente. Las capacidades de búsqueda mejoradas brindan a los usuarios una forma rápida de encontrar exactamente lo que están buscando cuando no quieren navegar por todo el sitio. Una forma de promover las experiencias que trasforman a los navegadores de un sitio en clientes leales es agregar contenidos que respalden el proceso de compra, como reseñas de los productos, vistas de productos múltiples y chat.
+Utilice herramientas de análisis y encuestas a los clientes para determinar cuáles son las características adecuadas para su producto y clientes. Esto le ayudará a descubrir qué está dando resultado o cuáles son sus carencias actuales. Implementar las características más avanzadas puede significar algo más que simplemente cambiar texto e imágenes. En su lugar, quizá necesite repensar o renovar los esquemas de las bases de datos actuales y las formas de flexibilizar los sistemas para contemplar la recolección, almacenamiento y manipulación de nuevos tipos de datos.
+Consulte La guía de la experiencia del cliente en comercio electrónico para obtener ayuda en el desarrollo de su estrategia de experiencia del cliente.
+Elección de la plataforma para su tienda de comercio electrónico
+Su plataforma de comercio electrónico consiste en el software, como Magento, Oracle Commerce, Adobe u otros, junto con la infraestructura elegida para ejecutar este software.
+Para elegir el software, debe tener en cuenta sus objetivos relacionados con la experiencia del cliente. Si su sitio necesita la opción de configurar productos individuales pero su software de comercio electrónico no incluye esta función, no podrá ofrecer la experiencia que desea. De forma similar, no es una buena idea ejecutar una plataforma de comercio electrónico con gran cantidad de recursos sobre un hardware de desempeño inferior ya que aumentará la tasa de rebote de su sitio como resultado de la lenta velocidad de carga de la página. Sus opciones de infraestructura de comercio electrónico incluyen:
+•	Nube: aprovecha la infraestructura flexible a nivel masivo y los ambientes preconfigurados o con alto nivel de personalización para disminuir la carga de hardware y de administración. Elija una nube pública para estrategias de bajo costo o una nube privada para cargas de trabajo sujetas a políticas de seguridad o cumplimientos de normas estrictos.
+•	Infraestructura interna: coloca toda la carga de hardware, seguridad, desempeño y flexibilidad en su equipo de TI y su presupuesto. Esto le brinda el máximo control junto con todos los dolores de cabeza relacionados con asumir la responsabilidad de toda la infraestructura de comercio electrónico.
+•	Nube híbrida: combina el uso de hardware interno o dedicado con recursos en la nube para lograr eficiencias y a su vez cumplir con ciertas políticas de seguridad o cumplimiento de normas. En un ambiente híbrido, un comerciante minorista puede optar por mover ciertas cargas de trabajo, como el correo electrónico o la entrega de contenidos, a la nube y a la vez mantener el control sobre otros sistemas críticos que funcionan mejor en equipos dedicados o internos.
+Consulte Información básica para la elección de una nueva plataforma de comercio electrónico para obtener una guía a la hora de planificar e implementar un proyecto de elección de nueva plataforma.
+Funcionalidad móvil
+La experiencia móvil aprovecha la funcionalidad específica de los dispositivos móviles, como clic para llamar, integración de GPS para mapas o publicidad dirigida por zonas geográficas, reconocimientos de texto, entre otras. Imagine que intenta dirigirse a clientes ubicados en una zona céntrica con servidores lentos que no entregan la notificación hasta pasadas varias horas.
+El comercio móvil (“m-commerce” en inglés) representa 1 de cada 10 dólares de comercio electrónico (y se espera que llegue a los $86,000 millones para el año 2016)2.
+La funcionalidad móvil también incluye una nueva gama completa de reglas de uso. La profundidad de los contenidos en su sitio web debe encogerse para adaptarse a pantallas más pequeñas mientras que los elementos como los botones y las imágenes necesitan más espacio de pantalla para poder seleccionarlos en sus dispositivos móviles. También es necesario simplificar la ubicación de los complementos de las redes sociales y el funcionamiento del carrito de compras para mejorar (no saturar) la ruta de compra.
+A lo largo de los años, las empresas han adoptado estrategias independientes para sus plataformas móviles y de escritorio. Con frecuencia, esto daba como resultado una versión móvil optimizada de un sitio y/o una aplicación móvil nativa relacionada. Sin embargo, mantener una aplicación de escritorio y móvil por separado suele generar experiencias desconectadas y una falta de satisfacción de los usuarios cuando la aplicación móvil más reciente no fluye o funciona de la misma forma que el sitio web de escritorio tradicional. El diseño web adaptable permite a los operadores de comercio electrónico diseñar un sitio único que se visualice de diversas formas dependiendo del dispositivo utilizado, un enfoque que ahorra recursos al reutilizar imágenes y contenidos. Esto permite ofrecer una experiencia visual y de contenidos consistente en dispositivos de escritorio, móviles y tabletas.
+Obtenga más información acerca de cómo utilizar plataformas móviles preconfiguradas que sirvan de base para su experiencia móvil. 
+Preparación para el tráfico pico
+Casi la mitad de las empresas (48%) informan que el tiempo de inactividad ejerce un impacto negativo sobre su marca y reputación3. La incapacidad de mantener las operaciones durante una falla o un pico de tráfico es un riesgo enorme para un sitio de comercio electrónico. Si su ambiente encuentra un problema con un parche, una actualización de código, una falla de servicio o de un componente de hardware o un desastre natural, ¿qué sucede con su sitio? ¿Tiene un plan de contingencia para cuestiones relacionadas con un tiempo de inactividad esperado e inesperado? Documentar su estrategia de comercio electrónico le permite identificar y atender necesidades de infraestructura que puedan ejercer un impacto negativo sobre su desempeño.
+La prueba de estrés, equivalente a realizar un “simulacro de incendio” en su sitio web, es fundamental para comprender el funcionamiento del sitio y determinar los aspectos que deben ser optimizados. Cada sistema tiene límites físicos y la mayor parte de los ambientes de comercio electrónico son únicos. Al ser sometido a estrés, un sitio puede revelar una debilidad o falla en su funcionamiento y permitirle realizar los ajustes necesarios para mitigar el riesgo antes de recibir comentarios negativos por parte de un cliente o críticas en los medios sociales.
+Planifique pruebas de desempeño anuales o trimestrales, de forma ideal durante periodos de bajo tráfico, para no afectar a los sistemas primarios. Las pruebas deben evaluar el desempeño en todo el ambiente de comercio electrónico (desde la capacidad de procesamiento de la red hasta la E/S de disco, la velocidad de recuperación ante una falla y hasta el uso de memoria o CPU) ya que un eslabón débil puede afectar a todo el ambiente.
+¿No sabe a ciencia cierta cuál es el costo del tiempo de inactividad? Mire el video Sea resistente y esté listo y obtenga una guía para calcular los costos del tiempo de inactividad y planificar la recuperación ante desastres.
+Medidas relacionadas con el cumplimiento de normas y las políticas de seguridad
+Las transacciones de comercio electrónico generan confianza en el consumidor al limitar el riesgo de actividades fraudulentas y a su vez garantizar la privacidad de la información de los consumidores. Sin embargo, el Informe sobre investigaciones de violaciones de datos de Verizon ha registrado en nueve años más de 1,200 millones de infracciones de registros, con 24% de estas atribuidas a operaciones minoristas4. Estos registros incluyen números de tarjetas de crédito, información personal o datos de titulares de tarjetas perdidas, robadas o utilizadas sin autorización.
+Para minimizar este riesgo, la Industria de tarjetas de pago (PCI, por sus sigla en inglés) creó una comisión, el Consejo de Normas de Seguridad de la Industria de Tarjetas de Pago (PCI SSC, por sus siglas en inglés), encargado de establecer y mantener las normas de seguridad de los datos de la industria de tarjetas de pago (PCI DSS, por sus siglas en inglés). Las PCI DSS ayudan a mitigar las vulnerabilidades asociadas con la transmisión, almacenamiento y/o procesamiento de los datos de titulares de tarjetas, específicamente el número de cuenta primario.
+En el año 2012, 6% de las empresas que debían observar las PCI DSS y sufrieron una violación de seguridad de sus datos incurrieron en incumplimiento de las normas5.
+Cumplir las normas de PCI DSS es un proceso continuo que consta de evaluaciones, actividades correctivas e informe de resultados. El Consejo mantiene una biblioteca de documentación para ayudar a los comerciantes y proveedores de servicios a mitigar los riesgos y garantizar la seguridad de las operaciones en línea.
+Las empresas que utilizan operaciones en línea deben identificar en primer lugar los riesgos potenciales tanto para el consumidor como para la empresa misma. Si no cuenta con los recursos necesarios para realizar estas funciones de manera confiable, considere una solución adecuada para su modelo comercial que proteja a todas las partes involucradas de conformidad con las PCI DSS. Los sitios de comercio electrónico tienen tres formas de cumplir los requerimientos de las PCI DSS:
+•	Usar un portal de pagos con una interfaz para programas de aplicación (API) integrada que facilite la transmisión del número de cuenta primario con o sin el almacenamiento de esta información
+•	Transmitir y almacenar el número de cuenta primario de forma interna
+•	Optar por subcontratar la transmisión, almacenamiento y/o procesamiento de los datos de pago
+En última instancia, la vía elegida por una organización para cumplir los requerimientos de las PCI DSS es una decisión comercial y debe ser evaluada con atención.
+Seguridad general del sitio
+Las PCI DSS abarcan las mejores prácticas para la protección de información delicada de los titulares de las tarjetas. Las empresas cuentan con muy poca información para garantizar la seguridad del comercio electrónico fuera del marco de estas normas. Los ataques DDoS y los virus incluidos en los mensajes de correo electrónico aún pueden interrumpir por completo las operaciones de un sitio que cumple con estas normas.
+La protección y administración de los sistemas (servidores, sistemas de almacenamiento, software, etc.) sobre los que se basan las operaciones de comercio electrónico puede resultar bastante onerosa. Para este tipo de cargas de trabajo, las soluciones híbridas en la nube están ganando terreno. Los comerciantes pueden adoptar un enfoque de nube híbrida y aprovechar las ventajas que ofrece la nube y a su vez mantener sistemas que cumplan con las normas para la transmisión, procesamiento y/o almacenamiento de la información de los titulares de las tarjetas en equipos dedicados o internos.
+Descubra cómo integrar una solución en la nube dentro del marco del cumplimiento de las normas de la PCI en Cumplimiento de las normas de la PCI en la nube híbrida
+Primeros pasos
+Mapeo del flujo y procesos del sitio
+Para realizar un mapeo del flujo del sitio se suelen utilizar cuadros de flujo o software que le permitan obtener un esquema visual de las rutas de compra. La lista que figura a continuación representa los elementos básicos del flujo del sitio divididos en distintas categorías: actividades comerciales, técnicas y orientadas al cliente. Su sitio puede tener más o menos elementos en base a los objetivos de su experiencia:
+Comercial:
+•	las campañas de marketing, promociones de ventas o menciones en los medios atraen a los clientes a su sitio web.
+•	Las actividades en los medios sociales estimulan el tráfico.
+•	El personal interno/empleados acceden al sitio para realizar consultas.
+Cliente:
+•	los usuarios ingresan al sitio por medio de un explorador de internet y su computadora de escritorio, su dispositivo móvil o su tableta.
+•	La solicitud se transmite por internet (servidor de nombres de dominio/servidor raíz).
+Técnica:
+•	URL registrada configurada para resolver una solicitud de dirección de IP pública a través de un DNS (servidor de nombres de dominio) y, posteriormente, dirección IP al proveedor de servicios de internet (PSI)
+•	Se envía la solicitud de dirección IP a través de una serie de enrutadores a su centro de datos.
+•	La dirección IP y el número de puerto (80-http/443-https) se transmiten a través de una serie de conmutadores.
+•	El servidor de servicios web acepta la solicitud y responde con el contenido o envía una solicitud a un servidor de base de datos.
+•	La información regresa al cliente para cada solicitud.
+Cliente:
+•	Ve los datos solicitados.
+•	Decide si continúa navegando en el sitio.
+•	Agrega un elemento a la aplicación web/carrito de compras.
+•	Pasa al proceso de pago.
+Técnica:
+•	El proceso de pago y/o registro en el sitio debe cumplir con las normas de privacidad.
+•	Los portales de pago deben seguir las pautas referidas al cumplimiento de normas.
+•	Se confirma el método de pago utilizado.
+Comercial:
+•	Se genera la confirmación de compra.
+•	Se genera una comunicación de la transacción y de seguimiento del pedido.
+•	Se coordina el inventario y el cumplimiento.
+El inventario
+Una vez mapeado el flujo del sitio, le resultará útil crear un inventario para definir los componentes que ya tiene, o que necesita tener, para ejecutar el flujo del sitio y los procesos de la forma deseada. Un inventario bien desarrollado sirve de guía para la estrategia que brindará una experiencia superior al usuario. Asimismo, puede revelar áreas que necesiten mejora y aquellas áreas que nadie tiene en cuenta hasta que se presenta una falla, como una infracción de seguridad o una falla en la funcionalidad del carrito de compras. El inventario de un sitio de comercio electrónico puede incluir:
+ 
+Contenido visual, portal de pagos, aplicaciones web, nombres de dominio, servicios de base de datos, conexión a internet, mercado objetivo, banco adquiriente, carrito de compras, línea de productos, servicios web, procesador de pagos
+Estos elementos abarcan todos los departamentos. Todas las partes interesadas deben señalar los aspectos de su enfoque específico que no están representados. Por ejemplo, el examen del inventario desde una perspectiva comercial puede señalar que no se ha incluido al departamento de marketing, y sin este, no habría ninguna visita de clientes al sitio. Un análisis desde una perspectiva técnica puede revelar deficiencias de hardware o del centro de datos. Desde la perspectiva de seguridad, se pueden evaluar los firewalls, los certificados SSL o cualquiera de los más de 200 requerimientos adicionales que deben tenerse en cuenta en un sitio de comercio electrónico.
+Si bien crear un inventario minucioso es una tarea ardua, es un primer paso importante para comprender cómo encajan todas las piezas de su sitio. Una vez que lo haya completado, habrá adquirido una mejor comprensión de lo que necesita hacer para implementar las tecnologías y procesos que necesita para respaldar su sitio.
+Resumen
+De acuerdo con el estudio realizado por Forrester and Shop.org en el año 2014, “The State of Retailing Online” (La situación del comercio minorista en línea), los clientes frecuentes representaban 51% de los ingresos de los sitios web. El hecho de que cuatro de diez de sus competidores tengan la intención de renovar su sitio este año6 significa que puede ser el momento de revisar o renovar su estrategia de comercio electrónico para no quedar rezagado.
+¿Necesita ayuda?
+Con una profunda experiencia y profesionalismo en plataformas digitales líderes, Rackspace Digital puede brindar asesoramiento sobre prácticas más adecuadas, arquitectura y servicio técnico proactivo en las siguientes competencias:
+•	Contenido:  asesoramiento en hospedaje de aplicaciones e infraestructura para plataformas WCMS líderes, que permite a los usuarios vivir experiencias en línea consistentes, confiables y que reaccionan de forma oportuna. Esto incluye WordPress, Drupal, Sitecore, Adobe y Ektron.
+•	Comercio: uso de una infraestructura abierta e híbrida y de los servicios necesarios para la creación de tiendas en línea seguras, flexibles y con una gran disponibilidad con el fin de aumentar y mejorar los ingresos en línea a través de Magento, Oracle Commerce, hybris e Intershop.
+•	Móvil: asesoramiento en hospedaje de plataformas móviles adaptables para aplicaciones e infraestructura en Node.js, FeedHenry y MutualMobile que permite a los usuarios desarrollar servicios móviles completamente flexibles y confiables para los clientes.
+Testimonio de clientes reales acerca de los beneficios concretos de incluir los servicios de Rackspace Digital en su estrategia de comercio electrónico:
+Cumplimiento de normas
+ “Es muy probable que no hubiésemos aprobado la auditoria de PCI, de un nivel excepcional de exigencia, sin la gran ayuda de Rackspace. Ciertamente se esforzaron al máximo para asegurarse de que cumpliésemos con todos los requerimientos a la perfección.”
+Aingaran Somaskandarajah
+Gerente técnico, Oyster Card
+Disponibilidad
+ “Nuestro tráfico y nuestras ventas pueden aumentar de 100 a 1,000 veces en relación con los niveles de la temporada baja. Necesitamos ampliar y reducir el tamaño, pero también procuramos no adquirir demasiada infraestructura durante la temporada baja. Por eso acudimos a la nube híbrida de Rackspace, basada en RackConnecttm : de esa manera dividimos nuestra aplicación entre una infraestructura privada dedicada para nuestro proceso de pago y una nube pública para descripciones y precios de productos y otro tipo de información.”
+Steve Vitale
+Director de comercio electrónico, Spencer Gifts
+Desempeño
+ “Con Rackspace, Karmaloop puede desplegar una variedad de servidores de primer nivel cuando lo necesita, flexibilizar esos servidores con rapidez, lo que básicamente permite a la empresa mantener un nivel de excelencia en el desempeño del usuario, garantizar la rapidez de carga de las páginas y ofrecer a sus clientes un tiempo de funcionamiento de 100%.”
+Gary Rush
+Director de tecnología, Karmaloop
+Móvil
+ “La confiabilidad de Rackspace brinda a Acquity Group la libertad para concentrarnos en crear excelentes aplicaciones y recibir a nuestros clientes sin preocuparnos acerca de la infraestructura.”
+Kevin Ellenwood
+Vicepresidente de servicios compartidos, Acquity Group, parte de Accenture Interactive
+Rentabilidad
+ “La nube nos brinda flexibilidad y ahorro de costos y no veo por qué no podríamos mover hasta 80% de nuestra carga de trabajo total a la nube, incluidas las aplicaciones de importancia crítica para el negocio y las cargas de trabajo móviles.”
+Colin Rees
