@@ -1,0 +1,96 @@
+permalink: desarrollo_de_tiendas_magento_seguras_escalables_y_con_alta_disponibilidad
+audit_date:-es
+title: Desarrollo de tiendas Magento seguras, escalables y con alta disponibilidad, impulsadas por Rackspace Solutions
+type: article
+created_date: '2011-03-16'
+created_by: Rackspace Support
+last_modified_date: '2016-05-20'
+last_modified_by: 
+product: Digital
+product_url: ecommerce-hosting
+
+Si prepara su primera tienda en línea en la plataforma de comercio electrónico de Magento o la está reconstruyendo con Magento Enterprise, necesita un socio de alojamiento híbrido o en la nube que tenga experiencia alojando plataformas de Magento para que su tienda en línea sea segura, escalable y siempre esté disponible.
+
+Con Rackspace, está en manos de un socio experto en alojamiento de Magento que ha ayudado a más de mil clientes en el mundo, desde pequeños negocios hasta compañías de Fortune 500. De acuerdo con un estudio de la autoridad en publicaciones de comercio electrónico Internet Retailer, Rackspace es actualmente el proveedor de alojamiento No. 1 para los mil sitios más importantes de Internet. Actualmente Rackspace da alojamiento a un mayor porcentaje de implantaciones mundiales de Magento que cualquier otro proveedor de alojamiento. Para poder brindarle un soporte aun mejor, Rackspace ahora forma parte del programa Socio de Alojamiento de Magento nivel platino.
+
+El área donde Magento proporciona un mejor desempeño es en optimización de infraestructura. Con las soluciones de alojamiento para comercio electrónico de Rackspace cuenta con una infraestructura diseñada para cumplir con los requerimientos de la plataforma de Magento, con lo que obtendrá las siguientes ventajas:
+
+    100% de tiempo de operación: cuando su sitio web es su caja registradora tiene que estar disponible siempre. Esta solución le garantiza un tiempo de uso y producción de 100%, siempre que se implante una topología recomendada.
+    Páginas que se cargan con más rapidez: la norma de la industria es que las páginas web se carguen en dos segundos, incluso en temporadas de carga altas. Esta solución agiliza la carga de páginas web.
+    Seguridad de información confidencial: los sitios de comercio electrónico requieren una infraestructura muy segura donde administrar información confidencial, como de tarjetas de crédito. A través de esta herramienta podrá colocarse dentro del marco de PCI por medio de una infraestructura dedicada y pasarelas de pago de terceros para infraestructura en la nube que cumplen con los requisitos de la Industria de Tarjetas de Pago (PCI).
+    Escalabilidad: uno de los requisitos más importantes de su tienda en línea es la capacidad de manejar subidas repentinas de tráfico por temporada y/o sobre demanda, en especial durante la época de fiestas. Esta solución está diseñada para adaptar subidas de tráfico y fluctuaciones para que la infraestructura se sienta casi ilimitada.
+
+Anna Carlqvist, directora de comercio electrónico mundial para GANT Clothing en Reino Unido comenta que “a los tres meses de lanzar el nuevo sitio en la plataforma de Magento, las órdenes en línea de GANT subieron 340%. También hubo un incremento de 290% en las tasas de conversión y una reducción de 35% en tiempo de carga de la página. Gracias a la escalabilidad infinita de Rackspace Open Cloud, GANT puede escalar los servidores para adecuarse a las necesidades del cliente mientras que solo paga lo que en realidad usa. Esto ha generado una reducción de 50% en costos de alojamiento”.
+
+Pusimos en práctica nuestra profunda experiencia en implantación de Magento para lanzar  cuatro arquitecturas de referencia que le permiten construir sitios web de comercio electrónico de clase mundial. Estas arquitecturas enlazan la plataforma de comercio electrónico de Magento con la infraestructura de alojamiento de Rackspace, que es líder de la industria. Además le ofrecen opciones para construir su tienda en línea y están disponibles en cuatro niveles diferentes: básico, intermedio, avanzado y premier. A continuación exploraremos varias opciones de diseño y los productos Rackspace que se usan para construir esas soluciones.
+
+ 
+Factores que influyen en el diseño de soluciones
+
+Para seleccionar el hardware de su negocio en línea hay que considerar varios factores y algunos de los más importantes son los siguientes.
+
+1. ¿Qué edición de Magento es la adecuada para usted?
+Sus opciones son Magento Community y Magento Enterprise.
+
+¿Cómo decidir cuál es la edición adecuada?
+En el siguiente vínculo puede comparar Magento Community, Enterprise y Go para que tome esa decisión:
+
+Comparación de ediciones de Magento
+
+2. Dónde almacenar la información de tarjetas de crédito y cómo transmitirla
+
+ 
+
+Los siguientes factores importantes a considerar son el lugar donde quiere almacenar los datos de tarjetas de crédito y cómo transmitirlos.
+
+Opciones de almacenamiento disponibles
+Puede guardar la información de tarjetas de crédito en un centro de datos de Rackspace o usar una pasarela de pago de terceros por medio de interfaces de programación de aplicación (APIs). Puede transmitir datos ya sea desde el servidor por medio de APIs o desde el navegador del cliente antes de que llegue a su servidor.
+
+ 
+
+Cómo decidir cuál es su mejor opción
+
+Una forma de determinar cuál opción es la ideal para su negocio es comparar el costo de usar pasarelas de pago de terceros contra el costo de almacenar la información en un centro de datos. Si procesa un menor número de transacciones de tarjetas de crédito tal vez sea mucho más económico usar una pasarela de terceros y esa sea su mejor opción, siempre que lo permitan las políticas de su compañía. Si el volumen de transacciones de tarjeta de crédito es muy alto, tal vez le parezca más barato almacenar la información de tarjetas de crédito en un centro de datos de Rackspace, donde se realizan auditorías de cumplimiento con la PCI. Las políticas de su compañía y el volumen de transacciones de tarjetas de crédito, junto con otros factores que no se mencionan aquí, le pueden ayudar a decidir dónde almacenar los datos de tarjetas de crédito.
+
+ 
+
+Cuando decide transmitir información de tarjetas de crédito desde el servidor usando APIs, la infraestructura de su servidor entra dentro de las normas de PCI, lo cual no sucede al usar APIs desde el navegador del cliente.
+
+3. Número máximo de usuarios simultáneos
+
+ 
+
+Se refiere al número de clientes que pueden entrar a su tienda en línea simultáneamente y realizar compras sin encontrar problemas relacionados con la distribución de recursos, y es algo importante a considerar cuando se elige una arquitectura de referencia. Recomendamos que diseñe su sistema para una carga 1.5 veces mayor de la que prevé para horas pico en sus transacciones del día a día.
+
+Además de los factores que se mencionaron, los siguientes parámetros comerciales también influirán en sus opciones de diseño de arquitectura de referencia:
+
+    Tamaño del catálogo.
+    Tiempo promedio de navegación por usuario, (es decir, cinco, 20 o 30 minutos).
+    Promedio y máximo de visitantes por día.
+    Promedio de órdenes por día.
+    Máximo de órdenes por hora y por día.
+    Máximo de órdenes por hora y por día durante la temporada de fiestas.
+    Número de usuarios simultáneos en el panel de administración.
+    Cantidad de SKUs/código de productos en catálogo.
+    Cantidad de categorías.
+
+ 
+
+Como regla general, recuerde que el número de usuarios simultáneos y de transacciones le ayudan a evaluar servidores web, mientras que el número de SKU en venta en el sitio web le ayudará a determinar el servidor de la base de datos.
+
+Si quiere saber más sobre cómo afinar su entorno para un desempeño óptimo, comuníquese con nuestro director de Magento en RJ.Rowntree@rackspace.com.
+
+ 
+Blogs relacionados
+
+1) Rackspace patrocina la conferencia Magento Imagine eCommerce 2013.
+http://www.rackspace.com/blog/rackspace-sponsors-2013-magento-imagine-conference/
+
+2) Sincronice su sitio de comercio electrónico Magento con archivos en la nube y Akamai CDN
+http://www.rackspace.com/blog/easily-sync-server-files-to-the-cloud/
+
+3) Comercio electrónico y alojamiento, una pareja perfecta de Internet
+http://www.rackspace.com/blog/ecommerce-and-hosting-a-match-made-in-internet-heaven/
+
+4) Por qué Rackspace es el proveedor de servicios de alojamiento No. 1 de los mil negocios electrónicos más importantes
+http://www.rackspace.com/blog/why-rackspace-is-the-no-1-hosting-provider-for-the-top-1000-e-retailers/
