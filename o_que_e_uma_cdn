@@ -1,0 +1,44 @@
+permalink: o_que_e_uma_cdn
+audit_date:-pt
+title: O que é uma CDN?
+type: article
+created_date: '2011-03-16'
+created_by: Rackspace Support
+last_modified_date: '2016-05-20'
+last_modified_by:
+product: Digital
+product_url: ecommerce-hosting
+
+A entrada na Wikipedia para CDN Estados: "uma rede de distribuição de conteúdoou rede de distribuição de conteúdo (CDN) é um grande sistema distribuído deservidores implantados em vários centros de dados através da Internet. O objetivode uma CDN é servir de conteúdo para os usuários finais com alta disponibilidade ealto desempenho. CDNs servir uma grande fração da Internet conteúdo hoje,incluindo objetos da web objetos (texto, gráficos e scripts), para download (arquivosde mídia, software, documentos), aplicações (e-commerce, portais), live streamingmedia, on-demand streaming de mídia e redes sociais".
+
+A Internet é uma rede de redes. Para obter o conteúdo de um servidor do outro ladodo planeta, os pacotes IP tem que viajar através de uma série de servidores deespinha dorsal e cabos de rede pública.
+
+CDNs como aumentar a Rackspace CDN [link produto] a rede de transportesempregando várias técnicas para otimizar a entrega de conteúdo. É bastante fácil vercomo CDNs ajudam olhando como a Internet funciona. Uma rota de rastreamentopara um endereço de Internet nos diz quantos saltos de rede leva um pedidosimples. A seguir está um para Yahoo.com.
+
+Lúpulo adicional significa mais tempo para processar dados de uma solicitação sobreo navegador do usuário. A velocidade de entrega também é restrito pela rede mais lento da cadeia. A solução é um CDN que coloca servidores ao redor do mundo e,dependendo de onde o usuário final está localizado, serve o usuário com os dadosdo servidor mais próximo ou mais adequado. CDNs reduzem o número de saltosnecessários para manipular uma solicitação. A diferença é mostrada nas figuras aseguir.
+
+Antes da utilização de uma CDN
+
+Usuário final solicita www.rackspace.com (servidor de origem) no navegador.
+O navegador do usuário final recebe conteúdo através de vários servidores.
+
+
+Após o uso de uma CDN
+
+Usuário final solicita www.rackspace.com (servidor de origem) no navegador.
+O navegador do usuário final recebe o conteúdo dos servidores ideais.
+
+
+CDNs concentrar em melhorar o desempenho de entrega de página da web. CDNscomo os downloads suporte progressivos de Akamai CDN, que otimiza a entrega deativos digitais, tais como imagens de página da web. Servidores e nós CDN sãoimplantados em vários locais ao redor do globo sobre múltiplos backbones daInternet. Esses nós cooperaram uns com os outros para satisfazer às solicitações dedados pelos usuários finais, transparentemente movendo o conteúdo para otimizar oprocesso de entrega. Quanto maior o tamanho e a escala de Edge de uma CDNimplantações, o melhor de rede CDN.
+
+CDNs geralmente empurrar a rede Edge mais perto para os usuários finais. A redeEdge cresce para fora do servidor de origem pela adição de instalações de co-localização, largura de banda e servidores. CDNs escolher o melhor local para servirconteúdo otimizar para desempenho. Eles podem escolher locais que são os menor número de saltos ou menor número de segundos de rede do cliente solicitante.CDNs escolhem os locais menos caros, otimizando custos. CDNs usam váriastécnicas como cache da web, balanceamento de carga de servidor e solicitação deencaminhamento para atingir as metas de otimização.
+
+Porque é mais perto melhor, web caches armazenam conteúdo popular mais pertopara o usuário. Estes aparelhos de rede compartilhada reduzem os requisitos delargura de banda, reduzem a carga do servidor e melhorar os tempos de resposta docliente para o conteúdo armazenado em cache.
+Balanceamento de carga de servidor usa um switch web, conteúdo switch oucomutador multilayer para dividir o tráfego entre vários servidores ou web caches.CDNs, o interruptor é atribuído um único endereço IP virtual. Chegando na troca detráfego é então direcionado para um dos servidores web real conectados ao switch.Isto tem as vantagens do balanceamento de carga, aumentando a capacidade total,melhorando a escalabilidade e proporcionando maior confiabilidade, Redistribuindoa carga de um servidor web falha e fornecendo servidor verificações de integridade.
+
+Balanceamento de carga de servidor global
+
+
+Roteamento de solicitação direciona solicitações de cliente para a fonte de conteúdomelhor capaz de atender a solicitação. Isso pode envolver a dirigir uma solicitaçãodo cliente para o nó de serviço mais próximo para o cliente, ou para o nó com maiscapacidade. Uma variedade de algoritmos para Global Server Load Balancing(mostrado no diagrama anterior) são usados para rotear a solicitação. Escolher o nómais próximo do serviço é feito usando uma variedade de técnicas, incluindo sondarpró-ativa e monitoramento de conexão.
+
+Para obter mais informações, consulte Quais são os benefícios de usar um CDN?
